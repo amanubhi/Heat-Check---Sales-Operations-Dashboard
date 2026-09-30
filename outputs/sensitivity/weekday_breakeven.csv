@@ -1,0 +1,7 @@
+day,days_operated,avg_gross_profit_per_day,ci95_low,ci95_high,crew_cost_per_day,breakeven_hourly_wage,pct_days_below_crew_cost,mean_below_cost_with_95pct_confidence
+Tuesday,52,568,531,607,660,18.92,76.9,True
+Wednesday,52,575,541,607,660,19.15,69.2,True
+Thursday,50,653,620,686,660,21.77,46.0,False
+Friday,52,1004,953,1059,825,26.78,23.1,False
+Saturday,52,1118,1066,1173,825,29.82,5.8,False
+Sunday,52,844,806,883,660,28.13,9.6,False

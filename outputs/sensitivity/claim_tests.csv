@@ -1,0 +1,5 @@
+claim,measure,estimate,ci95_low,ci95_high,p_value,conclusion
+Loyalty members repeat more often than non-members,repeat-rate difference (percentage points),19.7,15.9,23.6,1.4e-22,Significant at 95%
+Event kitchens are slower in 61+ order hours,difference in mean prep minutes,10.6,10.3,10.8,,Significant at 95% (CI excludes 0)
+Tue-Wed storefront gross profit per day is below a 3-person crew cost,mean gross profit per day vs $660 crew cost,571.0,546.0,596.0,,Below cost with 95% confidence
+Thursday storefront gross profit per day is below a 3-person crew cost,mean gross profit per day vs $660 crew cost,653.0,620.0,687.0,,Not proven: break-even within the margin of error

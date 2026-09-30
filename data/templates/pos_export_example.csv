@@ -1,0 +1,597 @@
+order_id,order_datetime,channel,event_name,item_name,category,quantity,unit_price,unit_food_cost,spice_level,payment_method,order_type,customer_id,discount_amount,tip_amount,prep_time_minutes
+HC003334,2025-03-01 18:34:30,Storefront,,Tender Combo,Combos,1,18.0,6.1,Extra Hot,Apple Pay,Dine-in,,0.0,1.48,11.9
+HC003351,2025-03-01 21:22:45,Storefront,,Wings 6pc,Wings,1,11.0,4.6,Hot,Online,Delivery App,anon-01380,0.0,5.59,8.7
+HC003351,2025-03-01 21:22:45,Storefront,,Coleslaw,Sides,1,4.0,0.85,,Online,Delivery App,anon-01380,0.0,5.59,8.7
+HC003351,2025-03-01 21:22:45,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Hot,Online,Delivery App,anon-01380,0.0,5.59,8.7
+HC003421,2025-03-04 19:10:52,Storefront,,Tender Combo,Combos,1,18.0,6.1,Hot,Apple Pay,Dine-in,,0.0,4.42,6.2
+HC003425,2025-03-05 11:40:40,Storefront,,Wings 6pc,Wings,1,11.0,4.6,Hot,Apple Pay,Dine-in,,0.0,3.19,6.7
+HC003425,2025-03-05 11:40:40,Storefront,,Coleslaw,Sides,1,4.0,0.85,,Apple Pay,Dine-in,,0.0,3.19,6.7
+HC003447,2025-03-05 18:40:47,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Hot,Online,Delivery App,anon-03908,0.0,4.87,9.7
+HC003447,2025-03-05 18:40:47,Storefront,,Cornbread,Sides,1,3.5,0.8,,Online,Delivery App,anon-03908,0.0,4.87,9.7
+HC003447,2025-03-05 18:40:47,Storefront,,Tender Combo,Combos,1,18.0,6.1,No Heat,Online,Delivery App,anon-03908,0.0,4.87,9.7
+HC003453,2025-03-05 19:47:38,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,Hot,Online,Delivery App,anon-03599,0.0,20.13,14.4
+HC003453,2025-03-05 19:47:38,Storefront,,Seasoned Fries,Sides,2,4.5,1.1,,Online,Delivery App,anon-03599,0.0,20.13,14.4
+HC003453,2025-03-05 19:47:38,Storefront,,Family Pack,Combos,1,58.0,21.5,Mild,Online,Delivery App,anon-03599,0.0,20.13,14.4
+HC003453,2025-03-05 19:47:38,Storefront,,Double Stack Sandwich,Sandwich,1,15.5,5.9,No Heat,Online,Delivery App,anon-03599,0.0,20.13,14.4
+HC003453,2025-03-05 19:47:38,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Online,Delivery App,anon-03599,0.0,20.13,14.4
+HC003467,2025-03-06 13:10:08,Storefront,,Wings 20pc,Wings,1,32.0,14.0,Medium,Cash,Takeout,,8.85,0.0,13.2
+HC003467,2025-03-06 13:10:08,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Cash,Takeout,,8.85,0.0,13.2
+HC003467,2025-03-06 13:10:08,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Cash,Takeout,,8.85,0.0,13.2
+HC003467,2025-03-06 13:10:08,Storefront,,Tender Combo,Combos,1,18.0,6.1,Hot,Cash,Takeout,,8.85,0.0,13.2
+HC003475,2025-03-06 16:27:28,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Mild,Apple Pay,Dine-in,,0.0,0.0,5.3
+HC003506,2025-03-07 13:18:04,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Mild,Online,Delivery App,anon-03163,0.0,0.0,13.1
+HC003506,2025-03-07 13:18:04,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Online,Delivery App,anon-03163,0.0,0.0,13.1
+HC003506,2025-03-07 13:18:04,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Online,Delivery App,anon-03163,0.0,0.0,13.1
+HC003506,2025-03-07 13:18:04,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Hot,Online,Delivery App,anon-03163,0.0,0.0,13.1
+HC003506,2025-03-07 13:18:04,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Mild,Online,Delivery App,anon-03163,0.0,0.0,13.1
+HC003506,2025-03-07 13:18:04,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Online,Delivery App,anon-03163,0.0,0.0,13.1
+HC003547,2025-03-07 18:21:30,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Hot,Card,Dine-in,,0.0,1.99,10.1
+HC003608,2025-03-07 19:52:57,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Extra Hot,Online,Delivery App,anon-04089,0.0,4.28,13.1
+HC003608,2025-03-07 19:52:57,Storefront,,Seasoned Fries,Sides,2,4.5,1.1,,Online,Delivery App,anon-04089,0.0,4.28,13.1
+HC003608,2025-03-07 19:52:57,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Hot,Online,Delivery App,anon-04089,0.0,4.28,13.1
+HC003608,2025-03-07 19:52:57,Storefront,,Banana Pudding Shake,Drinks,1,7.0,2.2,,Online,Delivery App,anon-04089,0.0,4.28,13.1
+HC003648,2025-03-08 12:19:09,Storefront,,Wings 20pc,Wings,1,32.0,14.0,Medium,Online,Takeout,,0.0,7.28,10.7
+HC003648,2025-03-08 12:19:09,Storefront,,Banana Pudding Shake,Drinks,1,7.0,2.2,,Online,Takeout,,0.0,7.28,10.7
+HC003650,2025-03-08 12:32:32,Storefront,,Tender Combo,Combos,1,18.0,6.1,Hot,Apple Pay,Dine-in,anon-03474,0.0,4.17,8.3
+HC003676,2025-03-08 18:29:29,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Reaper,Card,Takeout,anon-05276,0.0,0.0,9.9
+HC003699,2025-03-08 22:02:33,Storefront,,Tender Combo,Combos,1,18.0,6.1,Extra Hot,Online,Takeout,anon-05627,0.0,0.0,5.3
+HC003701,2025-03-08 22:46:50,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Hot,Card,Takeout,anon-03987,0.0,0.0,8.3
+HC003701,2025-03-08 22:46:50,Storefront,,Cornbread,Sides,1,3.5,0.8,,Card,Takeout,anon-03987,0.0,0.0,8.3
+HC003701,2025-03-08 22:46:50,Storefront,,Fountain Soda,Drinks,1,3.0,0.45,,Card,Takeout,anon-03987,0.0,0.0,8.3
+HC003701,2025-03-08 22:46:50,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Hot,Card,Takeout,anon-03987,0.0,0.0,8.3
+HC003708,2025-03-09 12:26:18,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,No Heat,Apple Pay,Dine-in,,0.0,2.46,5.8
+HC003708,2025-03-09 12:26:18,Storefront,,Cornbread,Sides,1,3.5,0.8,,Apple Pay,Dine-in,,0.0,2.46,5.8
+HC003711,2025-03-09 12:42:49,Storefront,,Wing Combo,Combos,1,20.5,8.3,Extra Hot,Card,Takeout,anon-01624,0.0,0.0,8.9
+HC003711,2025-03-09 12:42:49,Storefront,,Cornbread,Sides,1,3.5,0.8,,Card,Takeout,anon-01624,0.0,0.0,8.9
+HC003711,2025-03-09 12:42:49,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Hot,Card,Takeout,anon-01624,0.0,0.0,8.9
+HC003714,2025-03-09 13:03:27,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,Medium,Card,Dine-in,,1.95,4.41,9.6
+HC003754,2025-03-09 19:44:18,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Mild,Card,Dine-in,anon-04238,0.0,0.0,9.7
+HC003754,2025-03-09 19:44:18,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Medium,Card,Dine-in,anon-04238,0.0,0.0,9.7
+HC003783,2025-03-11 17:32:52,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,Extra Hot,Apple Pay,Dine-in,,0.0,2.92,5.7
+HC003786,2025-03-11 18:06:48,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Extra Hot,Apple Pay,Dine-in,,0.0,0.0,9.8
+HC003786,2025-03-11 18:06:48,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Apple Pay,Dine-in,,0.0,0.0,9.8
+HC003958,2025-03-14 19:30:17,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Cash,Dine-in,,0.0,2.0,7.6
+HC003958,2025-03-14 19:30:17,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Cash,Dine-in,,0.0,2.0,7.6
+HC004024,2025-03-15 16:57:30,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Extra Hot,Online,Delivery App,anon-01226,0.0,2.86,7.9
+HC004040,2025-03-15 18:29:13,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Extra Hot,Cash,Dine-in,anon-02714,0.0,2.0,11.4
+HC004040,2025-03-15 18:29:13,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Cash,Dine-in,anon-02714,0.0,2.0,11.4
+HC004040,2025-03-15 18:29:13,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Cash,Dine-in,anon-02714,0.0,2.0,11.4
+HC004041,2025-03-15 18:43:03,Storefront,,Family Pack,Combos,1,58.0,21.5,Hot,Online,Delivery App,anon-05439,0.0,14.08,11.1
+HC004041,2025-03-15 18:43:03,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Medium,Online,Delivery App,anon-05439,0.0,14.08,11.1
+HC004041,2025-03-15 18:43:03,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Online,Delivery App,anon-05439,0.0,14.08,11.1
+HC004059,2025-03-15 21:09:54,Storefront,,Double Stack Sandwich,Sandwich,1,15.5,5.9,Medium,Apple Pay,Takeout,,0.0,0.0,5.4
+HC004059,2025-03-15 21:09:54,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Apple Pay,Takeout,,0.0,0.0,5.4
+HC004140,2025-03-19 12:49:22,Storefront,,Wing Combo,Combos,1,20.5,8.3,Reaper,Online,Delivery App,anon-02962,0.0,3.91,11.6
+HC004181,2025-03-20 13:07:13,Storefront,,Wings 6pc,Wings,1,11.0,4.6,Hot,Apple Pay,Dine-in,,0.0,0.0,9.2
+HC004181,2025-03-20 13:07:13,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Apple Pay,Dine-in,,0.0,0.0,9.2
+HC004181,2025-03-20 13:07:13,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Apple Pay,Dine-in,,0.0,0.0,9.2
+HC004200,2025-03-20 18:53:46,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,No Heat,Card,Dine-in,,0.0,5.65,8.3
+HC004200,2025-03-20 18:53:46,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Card,Dine-in,,0.0,5.65,8.3
+HC004204,2025-03-20 19:44:04,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Extra Hot,Online,Delivery App,anon-02803,0.0,3.89,8.5
+HC004204,2025-03-20 19:44:04,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Online,Delivery App,anon-02803,0.0,3.89,8.5
+HC004215,2025-03-21 12:03:10,Storefront,,Tender Combo,Combos,1,18.0,6.1,Reaper,Online,Takeout,,0.0,0.0,9.7
+HC004216,2025-03-21 12:06:27,Storefront,,Tender Combo,Combos,1,18.0,6.1,Extra Hot,Card,Dine-in,,0.0,4.23,8.8
+HC004231,2025-03-21 16:59:09,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Online,Delivery App,anon-01784,0.0,7.68,8.7
+HC004231,2025-03-21 16:59:09,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Online,Delivery App,anon-01784,0.0,7.68,8.7
+HC004231,2025-03-21 16:59:09,Storefront,,Wings 20pc,Wings,1,32.0,14.0,Medium,Online,Delivery App,anon-01784,0.0,7.68,8.7
+HC004361,2025-03-22 12:14:46,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Card,Takeout,,0.0,1.58,11.3
+HC004367,2025-03-22 13:04:35,Storefront,,Tender Combo,Combos,1,18.0,6.1,Extra Hot,Card,Dine-in,,0.0,3.01,6.1
+HC004373,2025-03-22 16:38:27,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Medium,Cash,Takeout,anon-06136,0.0,0.0,5.4
+HC004571,2025-03-28 12:17:46,Vendor Event,Oxnard Spring Street Eats,Sandwich Combo,Combos,1,17.5,5.8,Mild,Card,Takeout,,0.0,0.0,11.7
+HC004571,2025-03-28 12:17:46,Vendor Event,Oxnard Spring Street Eats,Wings 20pc,Wings,1,32.0,14.0,Hot,Card,Takeout,,0.0,0.0,11.7
+HC004571,2025-03-28 12:17:46,Vendor Event,Oxnard Spring Street Eats,Seasoned Fries,Sides,1,4.5,1.1,,Card,Takeout,,0.0,0.0,11.7
+HC004571,2025-03-28 12:17:46,Vendor Event,Oxnard Spring Street Eats,Lemonade,Drinks,1,4.0,0.65,,Card,Takeout,,0.0,0.0,11.7
+HC004602,2025-03-28 12:54:04,Vendor Event,Oxnard Spring Street Eats,Wings 10pc,Wings,1,17.0,7.2,Hot,Card,Takeout,,0.0,0.0,7.6
+HC004602,2025-03-28 12:54:04,Vendor Event,Oxnard Spring Street Eats,Sandwich Combo,Combos,1,17.5,5.8,Extra Hot,Card,Takeout,,0.0,0.0,7.6
+HC004634,2025-03-28 14:27:05,Vendor Event,Oxnard Spring Street Eats,Tender Combo,Combos,1,18.0,6.1,Extra Hot,Card,Dine-in,,0.0,0.0,10.7
+HC004634,2025-03-28 14:27:05,Vendor Event,Oxnard Spring Street Eats,Tender Combo,Combos,1,18.0,6.1,Hot,Card,Dine-in,,0.0,0.0,10.7
+HC004634,2025-03-28 14:27:05,Vendor Event,Oxnard Spring Street Eats,Tenders 5pc,Tenders,1,14.0,4.3,Extra Hot,Card,Dine-in,,0.0,0.0,10.7
+HC004634,2025-03-28 14:27:05,Vendor Event,Oxnard Spring Street Eats,Coleslaw,Sides,1,4.0,0.85,,Card,Dine-in,,0.0,0.0,10.7
+HC004634,2025-03-28 14:27:05,Vendor Event,Oxnard Spring Street Eats,Lemonade,Drinks,1,4.0,0.65,,Card,Dine-in,,0.0,0.0,10.7
+HC004653,2025-03-28 15:10:13,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Hot,Online,Takeout,,0.0,0.0,7.5
+HC004653,2025-03-28 15:10:13,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Online,Takeout,,0.0,0.0,7.5
+HC004672,2025-03-28 16:09:56,Vendor Event,Oxnard Spring Street Eats,Wings 20pc,Wings,1,32.0,14.0,Extra Hot,Card,Dine-in,,0.0,8.37,9.6
+HC004672,2025-03-28 16:09:56,Vendor Event,Oxnard Spring Street Eats,Seasoned Fries,Sides,1,4.5,1.1,,Card,Dine-in,,0.0,8.37,9.6
+HC004672,2025-03-28 16:09:56,Vendor Event,Oxnard Spring Street Eats,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Card,Dine-in,,0.0,8.37,9.6
+HC004672,2025-03-28 16:09:56,Vendor Event,Oxnard Spring Street Eats,Mac & Cheese,Sides,1,5.5,1.7,,Card,Dine-in,,0.0,8.37,9.6
+HC004696,2025-03-28 16:55:16,Vendor Event,Oxnard Spring Street Eats,Sandwich Combo,Combos,1,17.5,5.8,Mild,Card,Takeout,,0.0,0.0,10.0
+HC004706,2025-03-28 17:11:11,Storefront,,Wings 6pc,Wings,1,11.0,4.6,Mild,Card,Dine-in,anon-05178,0.0,7.62,5.8
+HC004706,2025-03-28 17:11:11,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Card,Dine-in,anon-05178,0.0,7.62,5.8
+HC004706,2025-03-28 17:11:11,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,Extra Hot,Card,Dine-in,anon-05178,0.0,7.62,5.8
+HC004721,2025-03-28 17:41:08,Vendor Event,Oxnard Spring Street Eats,Wing Combo,Combos,1,20.5,8.3,Mild,Apple Pay,Takeout,,0.0,0.0,10.8
+HC004771,2025-03-28 19:06:45,Vendor Event,Oxnard Spring Street Eats,Tenders 3pc,Tenders,1,9.5,2.85,Medium,Apple Pay,Dine-in,,0.0,1.69,7.7
+HC004807,2025-03-28 21:42:09,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Extra Hot,Card,Dine-in,,0.0,6.26,6.8
+HC004807,2025-03-28 21:42:09,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Card,Dine-in,,0.0,6.26,6.8
+HC004807,2025-03-28 21:42:09,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Card,Dine-in,,0.0,6.26,6.8
+HC004812,2025-03-29 11:16:09,Vendor Event,Oxnard Spring Street Eats,Wing Combo,Combos,1,20.5,8.3,Mild,Card,Dine-in,,0.0,2.32,7.5
+HC004881,2025-03-29 12:54:38,Storefront,,Wing Combo,Combos,1,20.5,8.3,Medium,Card,Takeout,,0.0,1.7,8.7
+HC004883,2025-03-29 13:02:00,Vendor Event,Oxnard Spring Street Eats,Wings 10pc,Wings,1,17.0,7.2,Extra Hot,Cash,Takeout,,0.0,0.0,10.2
+HC004883,2025-03-29 13:02:00,Vendor Event,Oxnard Spring Street Eats,Seasoned Fries,Sides,1,4.5,1.1,,Cash,Takeout,,0.0,0.0,10.2
+HC004883,2025-03-29 13:02:00,Vendor Event,Oxnard Spring Street Eats,Fountain Soda,Drinks,1,3.0,0.45,,Cash,Takeout,,0.0,0.0,10.2
+HC004883,2025-03-29 13:02:00,Vendor Event,Oxnard Spring Street Eats,Wing Combo,Combos,1,20.5,8.3,Medium,Cash,Takeout,,0.0,0.0,10.2
+HC004883,2025-03-29 13:02:00,Vendor Event,Oxnard Spring Street Eats,Cornbread,Sides,1,3.5,0.8,,Cash,Takeout,,0.0,0.0,10.2
+HC005027,2025-03-29 17:53:19,Vendor Event,Oxnard Spring Street Eats,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Medium,Card,Dine-in,,0.0,0.0,13.2
+HC005027,2025-03-29 17:53:19,Vendor Event,Oxnard Spring Street Eats,Seasoned Fries,Sides,1,4.5,1.1,,Card,Dine-in,,0.0,0.0,13.2
+HC005027,2025-03-29 17:53:19,Vendor Event,Oxnard Spring Street Eats,Fountain Soda,Drinks,1,3.0,0.45,,Card,Dine-in,,0.0,0.0,13.2
+HC005027,2025-03-29 17:53:19,Vendor Event,Oxnard Spring Street Eats,Tender Combo,Combos,1,18.0,6.1,No Heat,Card,Dine-in,,0.0,0.0,13.2
+HC005030,2025-03-29 18:00:51,Vendor Event,Oxnard Spring Street Eats,Tenders 5pc,Tenders,1,14.0,4.3,Hot,Card,Takeout,anon-05265,0.0,17.95,13.7
+HC005030,2025-03-29 18:00:51,Vendor Event,Oxnard Spring Street Eats,Family Pack,Combos,1,58.0,21.5,Mild,Card,Takeout,anon-05265,0.0,17.95,13.7
+HC005030,2025-03-29 18:00:51,Vendor Event,Oxnard Spring Street Eats,Tender Combo,Combos,1,18.0,6.1,Extra Hot,Card,Takeout,anon-05265,0.0,17.95,13.7
+HC005068,2025-03-29 19:19:02,Vendor Event,Oxnard Spring Street Eats,Sandwich Combo,Combos,1,17.5,5.8,Extra Hot,Cash,Takeout,,0.0,0.0,4.4
+HC005071,2025-03-29 19:24:22,Vendor Event,Oxnard Spring Street Eats,Tender Combo,Combos,1,18.0,6.1,Extra Hot,Card,Takeout,,0.0,0.0,6.5
+HC005071,2025-03-29 19:24:22,Vendor Event,Oxnard Spring Street Eats,Seasoned Fries,Sides,1,4.5,1.1,,Card,Takeout,,0.0,0.0,6.5
+HC005093,2025-03-30 12:22:03,Storefront,,Family Pack,Combos,1,58.0,21.5,Medium,Online,Takeout,,0.0,0.0,5.4
+HC005108,2025-03-30 17:02:04,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Medium,Card,Takeout,,0.0,0.0,13.4
+HC005108,2025-03-30 17:02:04,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Card,Takeout,,0.0,0.0,13.4
+HC005108,2025-03-30 17:02:04,Storefront,,Wings 6pc,Wings,1,11.0,4.6,Hot,Card,Takeout,,0.0,0.0,13.4
+HC005108,2025-03-30 17:02:04,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Card,Takeout,,0.0,0.0,13.4
+HC005108,2025-03-30 17:02:04,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Hot,Card,Takeout,,0.0,0.0,13.4
+HC005108,2025-03-30 17:02:04,Storefront,,Banana Pudding Shake,Drinks,1,7.0,2.2,,Card,Takeout,,0.0,0.0,13.4
+HC005198,2025-04-02 18:41:12,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Reaper,Online,Delivery App,anon-01660,0.0,1.66,13.0
+HC005198,2025-04-02 18:41:12,Storefront,,Coleslaw,Sides,1,4.0,0.85,,Online,Delivery App,anon-01660,0.0,1.66,13.0
+HC005225,2025-04-03 17:28:30,Storefront,,Tender Combo,Combos,1,18.0,6.1,Medium,Apple Pay,Takeout,,0.0,3.67,5.2
+HC005236,2025-04-03 19:19:23,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Medium,Online,Takeout,,0.0,0.0,10.9
+HC005236,2025-04-03 19:19:23,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,Medium,Online,Takeout,,0.0,0.0,10.9
+HC005236,2025-04-03 19:19:23,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Online,Takeout,,0.0,0.0,10.9
+HC005236,2025-04-03 19:19:23,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Online,Takeout,,0.0,0.0,10.9
+HC005259,2025-04-04 15:55:05,Storefront,,Family Pack,Combos,1,58.0,21.5,Medium,Card,Dine-in,,0.0,6.49,7.3
+HC005259,2025-04-04 15:55:05,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Hot,Card,Dine-in,,0.0,6.49,7.3
+HC005259,2025-04-04 15:55:05,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Card,Dine-in,,0.0,6.49,7.3
+HC005305,2025-04-04 18:45:17,Storefront,,Tender Combo,Combos,1,18.0,6.1,Mild,Card,Takeout,,0.0,3.78,9.7
+HC005378,2025-04-04 20:29:10,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Mild,Online,Delivery App,anon-01784,0.0,3.89,14.7
+HC005378,2025-04-04 20:29:10,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Online,Delivery App,anon-01784,0.0,3.89,14.7
+HC005378,2025-04-04 20:29:10,Storefront,,Fountain Soda,Drinks,1,3.0,0.45,,Online,Delivery App,anon-01784,0.0,3.89,14.7
+HC005417,2025-04-05 12:40:34,Storefront,,Tender Combo,Combos,1,18.0,6.1,Mild,Card,Dine-in,,0.0,2.97,9.1
+HC005428,2025-04-05 14:31:30,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Medium,Online,Takeout,,0.0,5.53,5.6
+HC005428,2025-04-05 14:31:30,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Online,Takeout,,0.0,5.53,5.6
+HC005428,2025-04-05 14:31:30,Storefront,,Wing Combo,Combos,1,20.5,8.3,Mild,Online,Takeout,,0.0,5.53,5.6
+HC005430,2025-04-05 15:21:00,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Hot,Apple Pay,Takeout,,0.0,0.0,6.0
+HC005430,2025-04-05 15:21:00,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Apple Pay,Takeout,,0.0,0.0,6.0
+HC005443,2025-04-05 17:54:31,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Mild,Online,Delivery App,anon-04318,5.0,2.52,12.0
+HC005445,2025-04-05 18:05:17,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Hot,Card,Dine-in,anon-00635,0.0,5.02,11.4
+HC005445,2025-04-05 18:05:17,Storefront,,Cornbread,Sides,1,3.5,0.8,,Card,Dine-in,anon-00635,0.0,5.02,11.4
+HC005471,2025-04-05 19:46:49,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Hot,Online,Delivery App,anon-02880,1.4,1.79,13.9
+HC005471,2025-04-05 19:46:49,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Online,Delivery App,anon-02880,1.4,1.79,13.9
+HC005484,2025-04-06 11:49:31,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Hot,Online,Delivery App,anon-02895,0.0,6.99,12.8
+HC005484,2025-04-06 11:49:31,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Online,Delivery App,anon-02895,0.0,6.99,12.8
+HC005484,2025-04-06 11:49:31,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Reaper,Online,Delivery App,anon-02895,0.0,6.99,12.8
+HC005484,2025-04-06 11:49:31,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Online,Delivery App,anon-02895,0.0,6.99,12.8
+HC005527,2025-04-08 12:14:14,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Medium,Online,Delivery App,anon-01385,0.0,13.58,18.3
+HC005527,2025-04-08 12:14:14,Storefront,,Cornbread,Sides,1,3.5,0.8,,Online,Delivery App,anon-01385,0.0,13.58,18.3
+HC005527,2025-04-08 12:14:14,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Online,Delivery App,anon-01385,0.0,13.58,18.3
+HC005527,2025-04-08 12:14:14,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Mild,Online,Delivery App,anon-01385,0.0,13.58,18.3
+HC005527,2025-04-08 12:14:14,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Online,Delivery App,anon-01385,0.0,13.58,18.3
+HC005527,2025-04-08 12:14:14,Storefront,,Fountain Soda,Drinks,1,3.0,0.45,,Online,Delivery App,anon-01385,0.0,13.58,18.3
+HC005527,2025-04-08 12:14:14,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Reaper,Online,Delivery App,anon-01385,0.0,13.58,18.3
+HC005527,2025-04-08 12:14:14,Storefront,,Tender Combo,Combos,1,18.0,6.1,Medium,Online,Delivery App,anon-01385,0.0,13.58,18.3
+HC005527,2025-04-08 12:14:14,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Online,Delivery App,anon-01385,0.0,13.58,18.3
+HC005554,2025-04-08 20:27:07,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,Medium,Card,Takeout,,3.75,5.5,5.1
+HC005554,2025-04-08 20:27:07,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Card,Takeout,,3.75,5.5,5.1
+HC005561,2025-04-09 12:08:59,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Medium,Card,Takeout,,0.0,0.0,11.6
+HC005561,2025-04-09 12:08:59,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Card,Takeout,,0.0,0.0,11.6
+HC005561,2025-04-09 12:08:59,Storefront,,Fountain Soda,Drinks,1,3.0,0.45,,Card,Takeout,,0.0,0.0,11.6
+HC005570,2025-04-09 14:12:20,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Hot,Apple Pay,Takeout,,0.0,1.9,6.9
+HC005586,2025-04-09 18:54:25,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Card,Takeout,,0.0,2.5,11.6
+HC005586,2025-04-09 18:54:25,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Card,Takeout,,0.0,2.5,11.6
+HC005586,2025-04-09 18:54:25,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Card,Takeout,,0.0,2.5,11.6
+HC005624,2025-04-10 19:11:38,Storefront,,Tender Combo,Combos,1,18.0,6.1,Extra Hot,Apple Pay,Takeout,,0.0,0.0,8.1
+HC005630,2025-04-11 12:00:44,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Extra Hot,Apple Pay,Takeout,anon-01239,0.0,0.0,10.7
+HC005630,2025-04-11 12:00:44,Storefront,,Coleslaw,Sides,1,4.0,0.85,,Apple Pay,Takeout,anon-01239,0.0,0.0,10.7
+HC005631,2025-04-11 12:01:31,Storefront,,Wing Combo,Combos,1,20.5,8.3,Medium,Card,Dine-in,anon-06004,0.0,0.0,10.2
+HC005818,2025-04-12 17:51:25,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Hot,Apple Pay,Takeout,,0.0,2.98,10.1
+HC005818,2025-04-12 17:51:25,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Apple Pay,Takeout,,0.0,2.98,10.1
+HC005846,2025-04-12 22:18:21,Storefront,,Tender Combo,Combos,1,18.0,6.1,Reaper,Card,Dine-in,,0.0,0.0,6.5
+HC005857,2025-04-13 12:12:42,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Extra Hot,Online,Takeout,,0.0,0.0,10.6
+HC005857,2025-04-13 12:12:42,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Online,Takeout,,0.0,0.0,10.6
+HC005943,2025-04-16 17:46:06,Storefront,,Tender Combo,Combos,1,18.0,6.1,Hot,Cash,Dine-in,anon-05170,0.0,0.0,5.9
+HC005963,2025-04-17 12:26:38,Storefront,,Wings 20pc,Wings,1,32.0,14.0,Medium,Cash,Dine-in,,0.0,5.0,8.7
+HC005963,2025-04-17 12:26:38,Storefront,,Pickle Chips,Sides,1,3.0,0.55,,Cash,Dine-in,,0.0,5.0,8.7
+HC005978,2025-04-17 18:29:22,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Hot,Card,Dine-in,,0.0,0.0,8.3
+HC005978,2025-04-17 18:29:22,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Card,Dine-in,,0.0,0.0,8.3
+HC005999,2025-04-18 13:23:25,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Hot,Online,Delivery App,anon-05201,0.0,1.8,10.3
+HC006010,2025-04-18 16:33:20,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Medium,Apple Pay,Dine-in,,0.0,0.0,11.4
+HC006034,2025-04-18 17:59:44,Storefront,,Wing Combo,Combos,2,20.5,8.3,Medium,Card,Dine-in,,0.0,0.0,9.7
+HC006191,2025-04-19 18:01:47,Storefront,,Family Pack,Combos,1,58.0,21.5,Hot,Card,Takeout,anon-01261,0.0,0.0,9.6
+HC006191,2025-04-19 18:01:47,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Card,Takeout,anon-01261,0.0,0.0,9.6
+HC006204,2025-04-19 19:05:12,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Medium,Online,Delivery App,anon-05384,0.0,3.09,17.1
+HC006213,2025-04-19 19:42:45,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Hot,Card,Takeout,anon-00358,0.0,0.0,11.2
+HC006213,2025-04-19 19:42:45,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Card,Takeout,anon-00358,0.0,0.0,11.2
+HC006213,2025-04-19 19:42:45,Storefront,,Double Stack Sandwich,Sandwich,1,15.5,5.9,Mild,Card,Takeout,anon-00358,0.0,0.0,11.2
+HC006213,2025-04-19 19:42:45,Storefront,,Fountain Soda,Drinks,1,3.0,0.45,,Card,Takeout,anon-00358,0.0,0.0,11.2
+HC006218,2025-04-19 20:52:20,Storefront,,Double Stack Sandwich,Sandwich,1,15.5,5.9,Extra Hot,Online,Delivery App,anon-02003,0.0,5.9,13.0
+HC006218,2025-04-19 20:52:20,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Online,Delivery App,anon-02003,0.0,5.9,13.0
+HC006218,2025-04-19 20:52:20,Storefront,,Wing Combo,Combos,1,20.5,8.3,Medium,Online,Delivery App,anon-02003,0.0,5.9,13.0
+HC006218,2025-04-19 20:52:20,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Mild,Online,Delivery App,anon-02003,0.0,5.9,13.0
+HC006240,2025-04-20 14:17:19,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Extra Hot,Card,Takeout,,0.0,3.01,6.6
+HC006240,2025-04-20 14:17:19,Storefront,,Coleslaw,Sides,1,4.0,0.85,,Card,Takeout,,0.0,3.01,6.6
+HC006264,2025-04-20 18:45:48,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Extra Hot,Online,Delivery App,anon-03384,0.0,2.3,8.0
+HC006321,2025-04-23 13:53:03,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Mild,Apple Pay,Takeout,anon-06116,0.0,0.0,12.5
+HC006321,2025-04-23 13:53:03,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Apple Pay,Takeout,anon-06116,0.0,0.0,12.5
+HC006321,2025-04-23 13:53:03,Storefront,,Lemonade,Drinks,2,4.0,0.65,,Apple Pay,Takeout,anon-06116,0.0,0.0,12.5
+HC006321,2025-04-23 13:53:03,Storefront,,Wings 6pc,Wings,1,11.0,4.6,Medium,Apple Pay,Takeout,anon-06116,0.0,0.0,12.5
+HC006321,2025-04-23 13:53:03,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Apple Pay,Takeout,anon-06116,0.0,0.0,12.5
+HC006321,2025-04-23 13:53:03,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Medium,Apple Pay,Takeout,anon-06116,0.0,0.0,12.5
+HC006324,2025-04-23 16:43:04,Storefront,,Tender Combo,Combos,1,18.0,6.1,Hot,Cash,Dine-in,,0.0,2.0,3.9
+HC006324,2025-04-23 16:43:04,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Hot,Cash,Dine-in,,0.0,2.0,3.9
+HC006345,2025-04-24 13:05:28,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Mild,Card,Takeout,,0.0,4.0,8.6
+HC006364,2025-04-24 18:44:27,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Cash,Takeout,anon-05286,1.25,0.0,9.9
+HC006398,2025-04-25 13:52:32,Storefront,,Wings 20pc,Wings,1,32.0,14.0,Mild,Online,Delivery App,anon-05968,0.0,0.0,9.3
+HC006398,2025-04-25 13:52:32,Storefront,,Seasoned Fries,Sides,2,4.5,1.1,,Online,Delivery App,anon-05968,0.0,0.0,9.3
+HC006398,2025-04-25 13:52:32,Storefront,,Wing Combo,Combos,1,20.5,8.3,Mild,Online,Delivery App,anon-05968,0.0,0.0,9.3
+HC006403,2025-04-25 15:33:14,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Extra Hot,Online,Delivery App,anon-05115,0.0,0.0,6.8
+HC006551,2025-04-26 13:08:57,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,No Heat,Cash,Takeout,anon-06161,0.0,0.0,10.4
+HC006553,2025-04-26 13:10:47,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Mild,Online,Takeout,,2.0,1.95,9.2
+HC006560,2025-04-26 14:59:21,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Medium,Cash,Takeout,,0.0,3.0,6.0
+HC006560,2025-04-26 14:59:21,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Cash,Takeout,,0.0,3.0,6.0
+HC006566,2025-04-26 16:25:17,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,No Heat,Online,Takeout,anon-02202,0.0,0.0,7.2
+HC006566,2025-04-26 16:25:17,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Online,Takeout,anon-02202,0.0,0.0,7.2
+HC006581,2025-04-26 18:17:10,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Mild,Card,Dine-in,,0.0,2.74,13.3
+HC006581,2025-04-26 18:17:10,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Card,Dine-in,,0.0,2.74,13.3
+HC006584,2025-04-26 18:28:57,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Hot,Apple Pay,Dine-in,,0.0,3.31,12.5
+HC006584,2025-04-26 18:28:57,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Medium,Apple Pay,Dine-in,,0.0,3.31,12.5
+HC006584,2025-04-26 18:28:57,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Apple Pay,Dine-in,,0.0,3.31,12.5
+HC006619,2025-04-27 13:41:00,Storefront,,Wings 6pc,Wings,1,11.0,4.6,Extra Hot,Apple Pay,Dine-in,,0.0,3.41,4.0
+HC006619,2025-04-27 13:41:00,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Apple Pay,Dine-in,,0.0,3.41,4.0
+HC006672,2025-04-29 19:23:18,Storefront,,Tender Combo,Combos,1,18.0,6.1,Medium,Card,Takeout,anon-03058,0.0,6.68,12.7
+HC006672,2025-04-29 19:23:18,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Mild,Card,Takeout,anon-03058,0.0,6.68,12.7
+HC006672,2025-04-29 19:23:18,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Card,Takeout,anon-03058,0.0,6.68,12.7
+HC006724,2025-05-01 16:10:59,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Medium,Card,Dine-in,,0.0,2.93,8.3
+HC006724,2025-05-01 16:10:59,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Card,Dine-in,,0.0,2.93,8.3
+HC006724,2025-05-01 16:10:59,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Card,Dine-in,,0.0,2.93,8.3
+HC006762,2025-05-02 14:59:19,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Card,Dine-in,,0.0,3.06,7.9
+HC006762,2025-05-02 14:59:19,Storefront,,Coleslaw,Sides,1,4.0,0.85,,Card,Dine-in,,0.0,3.06,7.9
+HC006762,2025-05-02 14:59:19,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Card,Dine-in,,0.0,3.06,7.9
+HC006763,2025-05-02 15:07:44,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,Hot,Card,Dine-in,,0.0,2.95,6.4
+HC006763,2025-05-02 15:07:44,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Card,Dine-in,,0.0,2.95,6.4
+HC006763,2025-05-02 15:07:44,Storefront,,Banana Pudding Shake,Drinks,1,7.0,2.2,,Card,Dine-in,,0.0,2.95,6.4
+HC006812,2025-05-02 18:46:23,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Hot,Online,Delivery App,anon-03033,0.0,1.47,13.2
+HC006893,2025-05-02 21:56:40,Storefront,,Tender Combo,Combos,1,18.0,6.1,Medium,Cash,Dine-in,,0.0,2.0,6.8
+HC006920,2025-05-03 15:58:08,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Medium,Card,Dine-in,anon-05939,0.0,0.0,8.8
+HC006920,2025-05-03 15:58:08,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Extra Hot,Card,Dine-in,anon-05939,0.0,0.0,8.8
+HC006920,2025-05-03 15:58:08,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Card,Dine-in,anon-05939,0.0,0.0,8.8
+HC006920,2025-05-03 15:58:08,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Hot,Card,Dine-in,anon-05939,0.0,0.0,8.8
+HC006920,2025-05-03 15:58:08,Storefront,,Coleslaw,Sides,1,4.0,0.85,,Card,Dine-in,anon-05939,0.0,0.0,8.8
+HC006920,2025-05-03 15:58:08,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Card,Dine-in,anon-05939,0.0,0.0,8.8
+HC006954,2025-05-03 19:51:38,Storefront,,Tender Combo,Combos,1,18.0,6.1,Extra Hot,Card,Dine-in,,4.58,4.55,10.6
+HC006954,2025-05-03 19:51:38,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Extra Hot,Card,Dine-in,,4.58,4.55,10.6
+HC007007,2025-05-04 18:44:14,Storefront,,Tender Combo,Combos,1,18.0,6.1,Extra Hot,Apple Pay,Takeout,anon-02895,1.8,0.0,10.2
+HC007046,2025-05-06 18:30:32,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Extra Hot,Online,Delivery App,anon-03908,0.0,0.0,7.3
+HC007057,2025-05-07 12:01:57,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Hot,Card,Dine-in,anon-05169,0.0,0.0,8.3
+HC007057,2025-05-07 12:01:57,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Card,Dine-in,anon-05169,0.0,0.0,8.3
+HC007060,2025-05-07 12:36:47,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Medium,Online,Delivery App,anon-05591,0.0,1.96,11.1
+HC007060,2025-05-07 12:36:47,Storefront,,Coleslaw,Sides,1,4.0,0.85,,Online,Delivery App,anon-05591,0.0,1.96,11.1
+HC007110,2025-05-08 15:15:12,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Hot,Card,Dine-in,anon-01827,0.0,0.0,9.3
+HC007110,2025-05-08 15:15:12,Storefront,,Coleslaw,Sides,1,4.0,0.85,,Card,Dine-in,anon-01827,0.0,0.0,9.3
+HC007186,2025-05-09 12:29:18,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Hot,Card,Takeout,anon-02097,0.0,2.89,6.7
+HC007186,2025-05-09 12:29:18,Storefront,,Coleslaw,Sides,1,4.0,0.85,,Card,Takeout,anon-02097,0.0,2.89,6.7
+HC007196,2025-05-09 12:36:07,Vendor Event,Santa Paula Chili Cookoff,Wings 20pc,Wings,1,32.0,14.0,Hot,Card,Takeout,,0.0,4.79,11.8
+HC007199,2025-05-09 12:41:04,Vendor Event,Santa Paula Chili Cookoff,Tender Combo,Combos,1,18.0,6.1,Mild,Card,Dine-in,,0.0,0.0,13.7
+HC007200,2025-05-09 12:43:30,Vendor Event,Santa Paula Chili Cookoff,Tenders 5pc,Tenders,1,14.0,4.3,Reaper,Card,Takeout,,0.0,2.6,14.5
+HC007200,2025-05-09 12:43:30,Vendor Event,Santa Paula Chili Cookoff,Mac & Cheese,Sides,1,5.5,1.7,,Card,Takeout,,0.0,2.6,14.5
+HC007200,2025-05-09 12:43:30,Vendor Event,Santa Paula Chili Cookoff,Sweet Tea,Drinks,1,3.5,0.4,,Card,Takeout,,0.0,2.6,14.5
+HC007205,2025-05-09 12:48:40,Vendor Event,Santa Paula Chili Cookoff,Tender Combo,Combos,1,18.0,6.1,Reaper,Cash,Takeout,,0.0,0.0,13.3
+HC007205,2025-05-09 12:48:40,Vendor Event,Santa Paula Chili Cookoff,Tenders 5pc,Tenders,1,14.0,4.3,Extra Hot,Cash,Takeout,,0.0,0.0,13.3
+HC007215,2025-05-09 12:57:31,Vendor Event,Santa Paula Chili Cookoff,Tenders 5pc,Tenders,1,14.0,4.3,Medium,Cash,Takeout,,0.0,0.0,13.3
+HC007233,2025-05-09 13:16:10,Vendor Event,Santa Paula Chili Cookoff,Family Pack,Combos,1,58.0,21.5,Extra Hot,Apple Pay,Dine-in,,0.0,0.0,13.0
+HC007293,2025-05-09 15:01:10,Vendor Event,Santa Paula Chili Cookoff,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Apple Pay,Takeout,,0.0,2.01,9.4
+HC007293,2025-05-09 15:01:10,Vendor Event,Santa Paula Chili Cookoff,Cornbread,Sides,1,3.5,0.8,,Apple Pay,Takeout,,0.0,2.01,9.4
+HC007293,2025-05-09 15:01:10,Vendor Event,Santa Paula Chili Cookoff,Fountain Soda,Drinks,1,3.0,0.45,,Apple Pay,Takeout,,0.0,2.01,9.4
+HC007317,2025-05-09 16:14:25,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,Hot,Card,Dine-in,anon-02659,0.0,6.77,7.0
+HC007317,2025-05-09 16:14:25,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Card,Dine-in,anon-02659,0.0,6.77,7.0
+HC007317,2025-05-09 16:14:25,Storefront,,Banana Pudding Shake,Drinks,1,7.0,2.2,,Card,Dine-in,anon-02659,0.0,6.77,7.0
+HC007324,2025-05-09 16:27:55,Vendor Event,Santa Paula Chili Cookoff,Tenders 5pc,Tenders,1,14.0,4.3,Mild,Apple Pay,Dine-in,,0.0,0.0,9.9
+HC007324,2025-05-09 16:27:55,Vendor Event,Santa Paula Chili Cookoff,Wing Combo,Combos,1,20.5,8.3,Medium,Apple Pay,Dine-in,,0.0,0.0,9.9
+HC007324,2025-05-09 16:27:55,Vendor Event,Santa Paula Chili Cookoff,Sandwich Combo,Combos,1,17.5,5.8,Mild,Apple Pay,Dine-in,,0.0,0.0,9.9
+HC007324,2025-05-09 16:27:55,Vendor Event,Santa Paula Chili Cookoff,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Medium,Apple Pay,Dine-in,,0.0,0.0,9.9
+HC007344,2025-05-09 17:22:44,Vendor Event,Santa Paula Chili Cookoff,Tenders 3pc,Tenders,1,9.5,2.85,Mild,Cash,Dine-in,,0.0,0.0,9.7
+HC007344,2025-05-09 17:22:44,Vendor Event,Santa Paula Chili Cookoff,Cornbread,Sides,1,3.5,0.8,,Cash,Dine-in,,0.0,0.0,9.7
+HC007346,2025-05-09 17:23:57,Vendor Event,Santa Paula Chili Cookoff,Tenders 5pc,Tenders,1,14.0,4.3,Hot,Cash,Dine-in,,0.0,3.0,10.1
+HC007346,2025-05-09 17:23:57,Vendor Event,Santa Paula Chili Cookoff,Cornbread,Sides,1,3.5,0.8,,Cash,Dine-in,,0.0,3.0,10.1
+HC007354,2025-05-09 17:34:16,Vendor Event,Santa Paula Chili Cookoff,Sandwich Combo,Combos,1,17.5,5.8,Hot,Cash,Dine-in,,0.0,0.0,13.8
+HC007354,2025-05-09 17:34:16,Vendor Event,Santa Paula Chili Cookoff,Tender Combo,Combos,1,18.0,6.1,Extra Hot,Cash,Dine-in,,0.0,0.0,13.8
+HC007362,2025-05-09 17:39:51,Vendor Event,Santa Paula Chili Cookoff,Double Stack Sandwich,Sandwich,1,15.5,5.9,Extra Hot,Cash,Takeout,,0.0,1.0,15.5
+HC007362,2025-05-09 17:39:51,Vendor Event,Santa Paula Chili Cookoff,Coleslaw,Sides,2,4.0,0.85,,Cash,Takeout,,0.0,1.0,15.5
+HC007362,2025-05-09 17:39:51,Vendor Event,Santa Paula Chili Cookoff,Lemonade,Drinks,1,4.0,0.65,,Cash,Takeout,,0.0,1.0,15.5
+HC007362,2025-05-09 17:39:51,Vendor Event,Santa Paula Chili Cookoff,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Hot,Cash,Takeout,,0.0,1.0,15.5
+HC007362,2025-05-09 17:39:51,Vendor Event,Santa Paula Chili Cookoff,Wing Combo,Combos,1,20.5,8.3,Extra Hot,Cash,Takeout,,0.0,1.0,15.5
+HC007390,2025-05-09 18:10:29,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Medium,Card,Takeout,,0.0,0.0,11.8
+HC007390,2025-05-09 18:10:29,Storefront,,Banana Pudding Shake,Drinks,1,7.0,2.2,,Card,Takeout,,0.0,0.0,11.8
+HC007390,2025-05-09 18:10:29,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,Extra Hot,Card,Takeout,,0.0,0.0,11.8
+HC007390,2025-05-09 18:10:29,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Hot,Card,Takeout,,0.0,0.0,11.8
+HC007390,2025-05-09 18:10:29,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Card,Takeout,,0.0,0.0,11.8
+HC007394,2025-05-09 18:14:26,Vendor Event,Santa Paula Chili Cookoff,Wing Combo,Combos,1,20.5,8.3,Hot,Card,Takeout,anon-03737,0.0,3.81,10.8
+HC007407,2025-05-09 18:30:36,Vendor Event,Santa Paula Chili Cookoff,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Extra Hot,Card,Takeout,,0.0,4.41,14.3
+HC007407,2025-05-09 18:30:36,Vendor Event,Santa Paula Chili Cookoff,Banana Pudding Shake,Drinks,1,7.0,2.2,,Card,Takeout,,0.0,4.41,14.3
+HC007407,2025-05-09 18:30:36,Vendor Event,Santa Paula Chili Cookoff,Wings 6pc,Wings,1,11.0,4.6,Mild,Card,Takeout,,0.0,4.41,14.3
+HC007407,2025-05-09 18:30:36,Vendor Event,Santa Paula Chili Cookoff,Lemonade,Drinks,1,4.0,0.65,,Card,Takeout,,0.0,4.41,14.3
+HC007412,2025-05-09 18:35:30,Vendor Event,Santa Paula Chili Cookoff,Double Stack Sandwich,Sandwich,1,15.5,5.9,Hot,Cash,Takeout,,0.0,0.0,13.3
+HC007412,2025-05-09 18:35:30,Vendor Event,Santa Paula Chili Cookoff,Seasoned Fries,Sides,1,4.5,1.1,,Cash,Takeout,,0.0,0.0,13.3
+HC007412,2025-05-09 18:35:30,Vendor Event,Santa Paula Chili Cookoff,Tenders 8pc,Tenders,1,19.5,6.4,Hot,Cash,Takeout,,0.0,0.0,13.3
+HC007412,2025-05-09 18:35:30,Vendor Event,Santa Paula Chili Cookoff,Lemonade,Drinks,1,4.0,0.65,,Cash,Takeout,,0.0,0.0,13.3
+HC007451,2025-05-09 19:28:01,Vendor Event,Santa Paula Chili Cookoff,Tenders 5pc,Tenders,1,14.0,4.3,Mild,Cash,Dine-in,anon-03810,0.0,0.0,5.8
+HC007461,2025-05-09 19:48:38,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Medium,Card,Dine-in,,0.0,3.71,9.1
+HC007461,2025-05-09 19:48:38,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Card,Dine-in,,0.0,3.71,9.1
+HC007461,2025-05-09 19:48:38,Storefront,,Fountain Soda,Drinks,2,3.0,0.45,,Card,Dine-in,,0.0,3.71,9.1
+HC007461,2025-05-09 19:48:38,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Hot,Card,Dine-in,,0.0,3.71,9.1
+HC007469,2025-05-09 20:11:28,Vendor Event,Santa Paula Chili Cookoff,Sandwich Combo,Combos,1,17.5,5.8,Medium,Cash,Takeout,,0.0,2.0,7.2
+HC007490,2025-05-10 11:30:21,Vendor Event,Santa Paula Chili Cookoff,Sandwich Combo,Combos,1,17.5,5.8,Medium,Cash,Dine-in,,0.0,5.0,11.8
+HC007516,2025-05-10 12:00:41,Vendor Event,Santa Paula Chili Cookoff,Wing Combo,Combos,1,20.5,8.3,Hot,Card,Takeout,,0.0,7.95,10.0
+HC007516,2025-05-10 12:00:41,Vendor Event,Santa Paula Chili Cookoff,Wing Combo,Combos,1,20.5,8.3,Medium,Card,Takeout,,0.0,7.95,10.0
+HC007572,2025-05-10 12:52:50,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Mild,Card,Takeout,anon-02323,0.0,0.0,10.4
+HC007572,2025-05-10 12:52:50,Storefront,,Pickle Chips,Sides,1,3.0,0.55,,Card,Takeout,anon-02323,0.0,0.0,10.4
+HC007575,2025-05-10 12:55:38,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Mild,Online,Takeout,anon-05652,0.0,0.0,13.8
+HC007575,2025-05-10 12:55:38,Storefront,,Banana Pudding Shake,Drinks,1,7.0,2.2,,Online,Takeout,anon-05652,0.0,0.0,13.8
+HC007622,2025-05-10 13:34:59,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,No Heat,Card,Takeout,,0.0,0.0,7.0
+HC007667,2025-05-10 14:45:53,Vendor Event,Santa Paula Chili Cookoff,Wings 20pc,Wings,1,32.0,14.0,Hot,Cash,Dine-in,,0.0,0.0,12.4
+HC007667,2025-05-10 14:45:53,Vendor Event,Santa Paula Chili Cookoff,Fountain Soda,Drinks,1,3.0,0.45,,Cash,Dine-in,,0.0,0.0,12.4
+HC007667,2025-05-10 14:45:53,Vendor Event,Santa Paula Chili Cookoff,Wing Combo,Combos,1,20.5,8.3,Hot,Cash,Dine-in,,0.0,0.0,12.4
+HC007677,2025-05-10 14:56:09,Vendor Event,Santa Paula Chili Cookoff,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Mild,Cash,Dine-in,,0.0,0.0,13.0
+HC007677,2025-05-10 14:56:09,Vendor Event,Santa Paula Chili Cookoff,Pickle Chips,Sides,1,3.0,0.55,,Cash,Dine-in,,0.0,0.0,13.0
+HC007677,2025-05-10 14:56:09,Vendor Event,Santa Paula Chili Cookoff,Lemonade,Drinks,1,4.0,0.65,,Cash,Dine-in,,0.0,0.0,13.0
+HC007685,2025-05-10 15:07:15,Vendor Event,Santa Paula Chili Cookoff,Sandwich Combo,Combos,1,17.5,5.8,Mild,Card,Dine-in,,0.0,2.64,6.3
+HC007699,2025-05-10 15:44:23,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Mild,Online,Delivery App,anon-05946,0.0,3.99,9.7
+HC007699,2025-05-10 15:44:23,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Online,Delivery App,anon-05946,0.0,3.99,9.7
+HC007699,2025-05-10 15:44:23,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Online,Delivery App,anon-05946,0.0,3.99,9.7
+HC007722,2025-05-10 16:22:18,Vendor Event,Santa Paula Chili Cookoff,Wings 10pc,Wings,1,17.0,7.2,Reaper,Card,Dine-in,,0.0,0.0,11.4
+HC007722,2025-05-10 16:22:18,Vendor Event,Santa Paula Chili Cookoff,Fountain Soda,Drinks,1,3.0,0.45,,Card,Dine-in,,0.0,0.0,11.4
+HC007774,2025-05-10 17:21:13,Vendor Event,Santa Paula Chili Cookoff,Wings 6pc,Wings,2,11.0,4.6,Hot,Cash,Dine-in,,0.0,0.0,17.4
+HC007774,2025-05-10 17:21:13,Vendor Event,Santa Paula Chili Cookoff,Cornbread,Sides,1,3.5,0.8,,Cash,Dine-in,,0.0,0.0,17.4
+HC007774,2025-05-10 17:21:13,Vendor Event,Santa Paula Chili Cookoff,Banana Pudding Shake,Drinks,1,7.0,2.2,,Cash,Dine-in,,0.0,0.0,17.4
+HC007774,2025-05-10 17:21:13,Vendor Event,Santa Paula Chili Cookoff,Tenders 5pc,Tenders,1,14.0,4.3,Extra Hot,Cash,Dine-in,,0.0,0.0,17.4
+HC007800,2025-05-10 17:41:56,Vendor Event,Santa Paula Chili Cookoff,Wings 6pc,Wings,1,11.0,4.6,Medium,Cash,Dine-in,,0.0,5.0,16.3
+HC007800,2025-05-10 17:41:56,Vendor Event,Santa Paula Chili Cookoff,Seasoned Fries,Sides,1,4.5,1.1,,Cash,Dine-in,,0.0,5.0,16.3
+HC007800,2025-05-10 17:41:56,Vendor Event,Santa Paula Chili Cookoff,Fountain Soda,Drinks,1,3.0,0.45,,Cash,Dine-in,,0.0,5.0,16.3
+HC007804,2025-05-10 17:44:15,Vendor Event,Santa Paula Chili Cookoff,Double Stack Sandwich,Sandwich,1,15.5,5.9,Hot,Card,Takeout,,0.0,0.0,22.2
+HC007804,2025-05-10 17:44:15,Vendor Event,Santa Paula Chili Cookoff,Seasoned Fries,Sides,1,4.5,1.1,,Card,Takeout,,0.0,0.0,22.2
+HC007804,2025-05-10 17:44:15,Vendor Event,Santa Paula Chili Cookoff,Banana Pudding Shake,Drinks,1,7.0,2.2,,Card,Takeout,,0.0,0.0,22.2
+HC007804,2025-05-10 17:44:15,Vendor Event,Santa Paula Chili Cookoff,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Card,Takeout,,0.0,0.0,22.2
+HC007804,2025-05-10 17:44:15,Vendor Event,Santa Paula Chili Cookoff,Mac & Cheese,Sides,1,5.5,1.7,,Card,Takeout,,0.0,0.0,22.2
+HC007804,2025-05-10 17:44:15,Vendor Event,Santa Paula Chili Cookoff,Lemonade,Drinks,1,4.0,0.65,,Card,Takeout,,0.0,0.0,22.2
+HC007804,2025-05-10 17:44:15,Vendor Event,Santa Paula Chili Cookoff,Sandwich Combo,Combos,1,17.5,5.8,Extra Hot,Card,Takeout,,0.0,0.0,22.2
+HC007804,2025-05-10 17:44:15,Vendor Event,Santa Paula Chili Cookoff,Wing Combo,Combos,1,20.5,8.3,Reaper,Card,Takeout,,0.0,0.0,22.2
+HC007804,2025-05-10 17:44:15,Vendor Event,Santa Paula Chili Cookoff,Sandwich Combo,Combos,1,17.5,5.8,Hot,Card,Takeout,,0.0,0.0,22.2
+HC007804,2025-05-10 17:44:15,Vendor Event,Santa Paula Chili Cookoff,Wings 6pc,Wings,1,11.0,4.6,Medium,Card,Takeout,,0.0,0.0,22.2
+HC007804,2025-05-10 17:44:15,Vendor Event,Santa Paula Chili Cookoff,Sweet Tea,Drinks,1,3.5,0.4,,Card,Takeout,,0.0,0.0,22.2
+HC007814,2025-05-10 17:51:53,Vendor Event,Santa Paula Chili Cookoff,Tender Combo,Combos,1,18.0,6.1,Medium,Apple Pay,Takeout,,0.0,0.0,14.1
+HC007814,2025-05-10 17:51:53,Vendor Event,Santa Paula Chili Cookoff,Tenders 5pc,Tenders,1,14.0,4.3,Mild,Apple Pay,Takeout,,0.0,0.0,14.1
+HC007844,2025-05-10 18:21:05,Vendor Event,Santa Paula Chili Cookoff,Tenders 5pc,Tenders,1,14.0,4.3,Medium,Apple Pay,Dine-in,,0.0,3.3,13.4
+HC007844,2025-05-10 18:21:05,Vendor Event,Santa Paula Chili Cookoff,Cornbread,Sides,1,3.5,0.8,,Apple Pay,Dine-in,,0.0,3.3,13.4
+HC007844,2025-05-10 18:21:05,Vendor Event,Santa Paula Chili Cookoff,Sweet Tea,Drinks,1,3.5,0.4,,Apple Pay,Dine-in,,0.0,3.3,13.4
+HC007856,2025-05-10 18:31:36,Vendor Event,Santa Paula Chili Cookoff,Wing Combo,Combos,1,20.5,8.3,Hot,Card,Takeout,anon-01535,0.0,3.04,9.9
+HC007902,2025-05-10 19:25:46,Storefront,,Double Stack Sandwich,Sandwich,1,15.5,5.9,Hot,Online,Takeout,,0.0,0.0,13.9
+HC007903,2025-05-10 19:26:28,Vendor Event,Santa Paula Chili Cookoff,Tender Combo,Combos,1,18.0,6.1,Medium,Apple Pay,Dine-in,,5.0,0.0,16.0
+HC007903,2025-05-10 19:26:28,Vendor Event,Santa Paula Chili Cookoff,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Mild,Apple Pay,Dine-in,,5.0,0.0,16.0
+HC007903,2025-05-10 19:26:28,Vendor Event,Santa Paula Chili Cookoff,Mac & Cheese,Sides,1,5.5,1.7,,Apple Pay,Dine-in,,5.0,0.0,16.0
+HC007903,2025-05-10 19:26:28,Vendor Event,Santa Paula Chili Cookoff,Tenders 5pc,Tenders,1,14.0,4.3,Medium,Apple Pay,Dine-in,,5.0,0.0,16.0
+HC007903,2025-05-10 19:26:28,Vendor Event,Santa Paula Chili Cookoff,Seasoned Fries,Sides,1,4.5,1.1,,Apple Pay,Dine-in,,5.0,0.0,16.0
+HC007909,2025-05-10 19:40:25,Storefront,,Double Stack Sandwich,Sandwich,1,15.5,5.9,Hot,Online,Delivery App,anon-05616,0.0,0.0,12.0
+HC007909,2025-05-10 19:40:25,Storefront,,Lemonade,Drinks,2,4.0,0.65,,Online,Delivery App,anon-05616,0.0,0.0,12.0
+HC007909,2025-05-10 19:40:25,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Online,Delivery App,anon-05616,0.0,0.0,12.0
+HC007909,2025-05-10 19:40:25,Storefront,,Cornbread,Sides,1,3.5,0.8,,Online,Delivery App,anon-05616,0.0,0.0,12.0
+HC007969,2025-05-11 12:07:12,Vendor Event,Santa Paula Chili Cookoff,Sandwich Combo,Combos,1,17.5,5.8,Hot,Apple Pay,Takeout,,0.0,0.0,13.6
+HC007969,2025-05-11 12:07:12,Vendor Event,Santa Paula Chili Cookoff,Sandwich Combo,Combos,1,17.5,5.8,Medium,Apple Pay,Takeout,,0.0,0.0,13.6
+HC007974,2025-05-11 12:13:07,Vendor Event,Santa Paula Chili Cookoff,Tenders 5pc,Tenders,1,14.0,4.3,Medium,Apple Pay,Takeout,,0.0,0.0,14.2
+HC007974,2025-05-11 12:13:07,Vendor Event,Santa Paula Chili Cookoff,Coleslaw,Sides,1,4.0,0.85,,Apple Pay,Takeout,,0.0,0.0,14.2
+HC008071,2025-05-11 14:38:58,Vendor Event,Santa Paula Chili Cookoff,Sandwich Combo,Combos,1,17.5,5.8,Extra Hot,Card,Takeout,,0.0,0.0,8.4
+HC008071,2025-05-11 14:38:58,Vendor Event,Santa Paula Chili Cookoff,Tender Combo,Combos,1,18.0,6.1,Medium,Card,Takeout,,0.0,0.0,8.4
+HC008090,2025-05-11 15:11:49,Vendor Event,Santa Paula Chili Cookoff,Wings 10pc,Wings,1,17.0,7.2,Medium,Card,Takeout,,0.0,3.4,12.1
+HC008090,2025-05-11 15:11:49,Vendor Event,Santa Paula Chili Cookoff,Fountain Soda,Drinks,1,3.0,0.45,,Card,Takeout,,0.0,3.4,12.1
+HC008160,2025-05-11 17:15:59,Vendor Event,Santa Paula Chili Cookoff,Wings 10pc,Wings,1,17.0,7.2,Reaper,Card,Takeout,anon-04145,0.0,0.0,12.4
+HC008160,2025-05-11 17:15:59,Vendor Event,Santa Paula Chili Cookoff,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Mild,Card,Takeout,anon-04145,0.0,0.0,12.4
+HC008160,2025-05-11 17:15:59,Vendor Event,Santa Paula Chili Cookoff,Seasoned Fries,Sides,1,4.5,1.1,,Card,Takeout,anon-04145,0.0,0.0,12.4
+HC008160,2025-05-11 17:15:59,Vendor Event,Santa Paula Chili Cookoff,Family Pack,Combos,1,58.0,21.5,Hot,Card,Takeout,anon-04145,0.0,0.0,12.4
+HC008169,2025-05-11 17:26:35,Vendor Event,Santa Paula Chili Cookoff,Wings 10pc,Wings,1,17.0,7.2,Extra Hot,Card,Takeout,,0.0,7.78,15.0
+HC008169,2025-05-11 17:26:35,Vendor Event,Santa Paula Chili Cookoff,Coleslaw,Sides,1,4.0,0.85,,Card,Takeout,,0.0,7.78,15.0
+HC008169,2025-05-11 17:26:35,Vendor Event,Santa Paula Chili Cookoff,Sweet Tea,Drinks,1,3.5,0.4,,Card,Takeout,,0.0,7.78,15.0
+HC008169,2025-05-11 17:26:35,Vendor Event,Santa Paula Chili Cookoff,Sandwich Combo,Combos,1,17.5,5.8,Medium,Card,Takeout,,0.0,7.78,15.0
+HC008181,2025-05-11 17:34:51,Vendor Event,Santa Paula Chili Cookoff,Tender Combo,Combos,1,18.0,6.1,Reaper,Apple Pay,Dine-in,,0.0,5.92,12.9
+HC008181,2025-05-11 17:34:51,Vendor Event,Santa Paula Chili Cookoff,Tenders 5pc,Tenders,1,14.0,4.3,Reaper,Apple Pay,Dine-in,,0.0,5.92,12.9
+HC008181,2025-05-11 17:34:51,Vendor Event,Santa Paula Chili Cookoff,Seasoned Fries,Sides,1,4.5,1.1,,Apple Pay,Dine-in,,0.0,5.92,12.9
+HC008190,2025-05-11 17:46:17,Vendor Event,Santa Paula Chili Cookoff,Double Stack Sandwich,Sandwich,1,15.5,5.9,Mild,Card,Takeout,,0.0,3.67,10.7
+HC008190,2025-05-11 17:46:17,Vendor Event,Santa Paula Chili Cookoff,Tenders 5pc,Tenders,1,14.0,4.3,Medium,Card,Takeout,,0.0,3.67,10.7
+HC008190,2025-05-11 17:46:17,Vendor Event,Santa Paula Chili Cookoff,Pickle Chips,Sides,1,3.0,0.55,,Card,Takeout,,0.0,3.67,10.7
+HC008192,2025-05-11 17:47:59,Vendor Event,Santa Paula Chili Cookoff,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Card,Takeout,anon-02905,0.0,0.0,14.3
+HC008192,2025-05-11 17:47:59,Vendor Event,Santa Paula Chili Cookoff,Coleslaw,Sides,1,4.0,0.85,,Card,Takeout,anon-02905,0.0,0.0,14.3
+HC008192,2025-05-11 17:47:59,Vendor Event,Santa Paula Chili Cookoff,Fountain Soda,Drinks,1,3.0,0.45,,Card,Takeout,anon-02905,0.0,0.0,14.3
+HC008215,2025-05-11 18:15:50,Vendor Event,Santa Paula Chili Cookoff,Sandwich Combo,Combos,1,17.5,5.8,Hot,Apple Pay,Takeout,,0.0,0.0,16.4
+HC008215,2025-05-11 18:15:50,Vendor Event,Santa Paula Chili Cookoff,Tenders 8pc,Tenders,1,19.5,6.4,Extra Hot,Apple Pay,Takeout,,0.0,0.0,16.4
+HC008215,2025-05-11 18:15:50,Vendor Event,Santa Paula Chili Cookoff,Fountain Soda,Drinks,1,3.0,0.45,,Apple Pay,Takeout,,0.0,0.0,16.4
+HC008218,2025-05-11 18:16:32,Vendor Event,Santa Paula Chili Cookoff,Sandwich Combo,Combos,1,17.5,5.8,Medium,Card,Dine-in,anon-05224,0.0,0.0,11.4
+HC008218,2025-05-11 18:16:32,Vendor Event,Santa Paula Chili Cookoff,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Card,Dine-in,anon-05224,0.0,0.0,11.4
+HC008218,2025-05-11 18:16:32,Vendor Event,Santa Paula Chili Cookoff,Fountain Soda,Drinks,1,3.0,0.45,,Card,Dine-in,anon-05224,0.0,0.0,11.4
+HC008220,2025-05-11 18:18:14,Vendor Event,Santa Paula Chili Cookoff,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Hot,Card,Takeout,,0.0,2.75,11.2
+HC008220,2025-05-11 18:18:14,Vendor Event,Santa Paula Chili Cookoff,Banana Pudding Shake,Drinks,1,7.0,2.2,,Card,Takeout,,0.0,2.75,11.2
+HC008225,2025-05-11 18:25:51,Vendor Event,Santa Paula Chili Cookoff,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Hot,Card,Dine-in,,0.0,0.0,12.5
+HC008228,2025-05-11 18:28:19,Vendor Event,Santa Paula Chili Cookoff,Sandwich Combo,Combos,1,17.5,5.8,Medium,Cash,Takeout,,0.0,1.0,12.7
+HC008228,2025-05-11 18:28:19,Vendor Event,Santa Paula Chili Cookoff,Tender Combo,Combos,1,18.0,6.1,Medium,Cash,Takeout,,0.0,1.0,12.7
+HC008278,2025-05-11 19:56:02,Vendor Event,Santa Paula Chili Cookoff,Tender Combo,Combos,1,18.0,6.1,No Heat,Cash,Takeout,,0.0,0.0,6.2
+HC008278,2025-05-11 19:56:02,Vendor Event,Santa Paula Chili Cookoff,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Mild,Cash,Takeout,,0.0,0.0,6.2
+HC008301,2025-05-13 14:12:25,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Mild,Online,Delivery App,anon-02823,3.65,3.69,9.1
+HC008301,2025-05-13 14:12:25,Storefront,,Cornbread,Sides,1,3.5,0.8,,Online,Delivery App,anon-02823,3.65,3.69,9.1
+HC008301,2025-05-13 14:12:25,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Extra Hot,Online,Delivery App,anon-02823,3.65,3.69,9.1
+HC008301,2025-05-13 14:12:25,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Online,Delivery App,anon-02823,3.65,3.69,9.1
+HC008303,2025-05-13 15:04:01,Storefront,,Double Stack Sandwich,Sandwich,1,15.5,5.9,Hot,Card,Takeout,anon-02741,0.0,0.0,4.8
+HC008363,2025-05-15 12:13:13,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Medium,Online,Delivery App,anon-05942,0.0,2.79,8.2
+HC008378,2025-05-15 18:23:42,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Medium,Card,Takeout,,0.0,0.0,9.8
+HC008378,2025-05-15 18:23:42,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Card,Takeout,,0.0,0.0,9.8
+HC008382,2025-05-15 18:51:18,Storefront,,Wings 6pc,Wings,1,11.0,4.6,Hot,Apple Pay,Takeout,,0.0,3.55,10.3
+HC008382,2025-05-15 18:51:18,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Apple Pay,Takeout,,0.0,3.55,10.3
+HC008382,2025-05-15 18:51:18,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Apple Pay,Takeout,,0.0,3.55,10.3
+HC008424,2025-05-16 17:32:18,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Online,Delivery App,anon-04315,0.0,4.94,15.6
+HC008424,2025-05-16 17:32:18,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Online,Delivery App,anon-04315,0.0,4.94,15.6
+HC008424,2025-05-16 17:32:18,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Mild,Online,Delivery App,anon-04315,0.0,4.94,15.6
+HC008424,2025-05-16 17:32:18,Storefront,,Coleslaw,Sides,1,4.0,0.85,,Online,Delivery App,anon-04315,0.0,4.94,15.6
+HC008586,2025-05-17 18:09:16,Storefront,,Tender Combo,Combos,1,18.0,6.1,Medium,Online,Delivery App,anon-02476,0.0,3.53,13.4
+HC008588,2025-05-17 18:14:48,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Medium,Card,Takeout,anon-00708,0.0,4.58,14.1
+HC008588,2025-05-17 18:14:48,Storefront,,Pickle Chips,Sides,1,3.0,0.55,,Card,Takeout,anon-00708,0.0,4.58,14.1
+HC008588,2025-05-17 18:14:48,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Card,Takeout,anon-00708,0.0,4.58,14.1
+HC008601,2025-05-17 19:38:46,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Reaper,Online,Delivery App,anon-06379,2.62,2.87,12.4
+HC008601,2025-05-17 19:38:46,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Online,Delivery App,anon-06379,2.62,2.87,12.4
+HC008635,2025-05-18 15:36:29,Storefront,,Wings 6pc,Wings,1,11.0,4.6,Medium,Online,Delivery App,anon-05081,5.0,5.57,7.8
+HC008635,2025-05-18 15:36:29,Storefront,,Wing Combo,Combos,1,20.5,8.3,Hot,Online,Delivery App,anon-05081,5.0,5.57,7.8
+HC008641,2025-05-18 17:12:52,Storefront,,Tender Combo,Combos,1,18.0,6.1,Medium,Card,Takeout,anon-05819,0.0,1.69,8.2
+HC008651,2025-05-18 18:35:33,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Hot,Card,Takeout,anon-05444,0.0,1.97,8.1
+HC008663,2025-05-20 11:25:26,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Hot,Card,Takeout,anon-02041,0.0,4.02,7.5
+HC008663,2025-05-20 11:25:26,Storefront,,Pickle Chips,Sides,1,3.0,0.55,,Card,Takeout,anon-02041,0.0,4.02,7.5
+HC008663,2025-05-20 11:25:26,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Hot,Card,Takeout,anon-02041,0.0,4.02,7.5
+HC008663,2025-05-20 11:25:26,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Card,Takeout,anon-02041,0.0,4.02,7.5
+HC008663,2025-05-20 11:25:26,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Card,Takeout,anon-02041,0.0,4.02,7.5
+HC008667,2025-05-20 12:37:06,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Hot,Online,Delivery App,anon-05145,0.0,1.94,9.5
+HC008675,2025-05-20 17:49:10,Storefront,,Tender Combo,Combos,1,18.0,6.1,Medium,Online,Takeout,,0.0,0.0,7.2
+HC008675,2025-05-20 17:49:10,Storefront,,Coleslaw,Sides,1,4.0,0.85,,Online,Takeout,,0.0,0.0,7.2
+HC008712,2025-05-21 18:19:51,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Mild,Cash,Dine-in,,0.0,0.0,10.5
+HC008712,2025-05-21 18:19:51,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Cash,Dine-in,,0.0,0.0,10.5
+HC008712,2025-05-21 18:19:51,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Cash,Dine-in,,0.0,0.0,10.5
+HC008758,2025-05-22 18:44:18,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Hot,Online,Takeout,anon-06247,2.0,0.0,13.3
+HC008758,2025-05-22 18:44:18,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Online,Takeout,anon-06247,2.0,0.0,13.3
+HC008758,2025-05-22 18:44:18,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Online,Takeout,anon-06247,2.0,0.0,13.3
+HC008772,2025-05-23 12:34:21,Storefront,,Tender Combo,Combos,1,18.0,6.1,Reaper,Online,Delivery App,anon-04210,0.0,0.0,15.1
+HC008772,2025-05-23 12:34:21,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Online,Delivery App,anon-04210,0.0,0.0,15.1
+HC008778,2025-05-23 13:03:29,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Card,Dine-in,,0.0,0.0,9.3
+HC008882,2025-05-23 20:27:15,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Medium,Card,Dine-in,,0.0,2.54,6.6
+HC008935,2025-05-24 18:08:22,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Medium,Card,Dine-in,,0.0,6.13,17.0
+HC008935,2025-05-24 18:08:22,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Hot,Card,Dine-in,,0.0,6.13,17.0
+HC008935,2025-05-24 18:08:22,Storefront,,Fountain Soda,Drinks,1,3.0,0.45,,Card,Dine-in,,0.0,6.13,17.0
+HC008989,2025-05-25 18:25:09,Storefront,,Wings 6pc,Wings,1,11.0,4.6,Mild,Card,Dine-in,,0.0,2.61,7.6
+HC008990,2025-05-25 18:29:52,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Medium,Cash,Takeout,anon-04199,0.0,1.0,6.6
+HC008990,2025-05-25 18:29:52,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Cash,Takeout,anon-04199,0.0,1.0,6.6
+HC009009,2025-05-27 11:48:59,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Hot,Online,Delivery App,anon-02817,0.0,5.55,10.9
+HC009009,2025-05-27 11:48:59,Storefront,,Wings 6pc,Wings,1,11.0,4.6,Mild,Online,Delivery App,anon-02817,0.0,5.55,10.9
+HC009009,2025-05-27 11:48:59,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Extra Hot,Online,Delivery App,anon-02817,0.0,5.55,10.9
+HC009009,2025-05-27 11:48:59,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Online,Delivery App,anon-02817,0.0,5.55,10.9
+HC009018,2025-05-27 14:51:57,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Hot,Card,Takeout,,0.0,7.36,6.2
+HC009018,2025-05-27 14:51:57,Storefront,,Family Pack,Combos,1,58.0,21.5,Medium,Card,Takeout,,0.0,7.36,6.2
+HC009025,2025-05-27 19:32:02,Storefront,,Tender Combo,Combos,1,18.0,6.1,Medium,Online,Delivery App,anon-04542,0.0,3.58,7.4
+HC009057,2025-05-29 12:10:33,Storefront,,Double Stack Sandwich,Sandwich,1,15.5,5.9,Hot,Card,Takeout,anon-03419,0.0,0.0,7.0
+HC009057,2025-05-29 12:10:33,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Card,Takeout,anon-03419,0.0,0.0,7.0
+HC009057,2025-05-29 12:10:33,Storefront,,Banana Pudding Shake,Drinks,1,7.0,2.2,,Card,Takeout,anon-03419,0.0,0.0,7.0
+HC009087,2025-05-29 18:37:26,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,Medium,Card,Takeout,,0.0,0.0,7.9
+HC009087,2025-05-29 18:37:26,Storefront,,Banana Pudding Shake,Drinks,1,7.0,2.2,,Card,Takeout,,0.0,0.0,7.9
+HC009104,2025-05-30 12:37:37,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Medium,Online,Takeout,,0.0,0.0,4.2
+HC009106,2025-05-30 13:06:52,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,No Heat,Online,Delivery App,anon-00805,0.0,8.32,12.6
+HC009106,2025-05-30 13:06:52,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Medium,Online,Delivery App,anon-00805,0.0,8.32,12.6
+HC009106,2025-05-30 13:06:52,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Online,Delivery App,anon-00805,0.0,8.32,12.6
+HC009106,2025-05-30 13:06:52,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,No Heat,Online,Delivery App,anon-00805,0.0,8.32,12.6
+HC009127,2025-05-30 17:33:53,Storefront,,Tender Combo,Combos,1,18.0,6.1,Extra Hot,Online,Delivery App,anon-01417,0.0,3.41,8.0
+HC009289,2025-05-31 18:52:59,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Cash,Dine-in,anon-03874,0.0,0.0,9.0
+HC009289,2025-05-31 18:52:59,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Cash,Dine-in,anon-03874,0.0,0.0,9.0
+HC009311,2025-06-01 11:30:12,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Hot,Card,Takeout,,0.0,0.0,5.0
+HC009311,2025-06-01 11:30:12,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Card,Takeout,,0.0,0.0,5.0
+HC009372,2025-06-03 12:37:59,Storefront,,Tender Combo,Combos,1,18.0,6.1,Mild,Apple Pay,Dine-in,anon-05289,0.0,8.25,8.5
+HC009372,2025-06-03 12:37:59,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,Medium,Apple Pay,Dine-in,anon-05289,0.0,8.25,8.5
+HC009372,2025-06-03 12:37:59,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Apple Pay,Dine-in,anon-05289,0.0,8.25,8.5
+HC009392,2025-06-03 18:59:09,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Hot,Card,Takeout,anon-01216,0.0,1.24,8.7
+HC009455,2025-06-05 18:03:47,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,Medium,Apple Pay,Dine-in,,0.0,4.99,8.3
+HC009455,2025-06-05 18:03:47,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Apple Pay,Dine-in,,0.0,4.99,8.3
+HC009486,2025-06-06 12:24:38,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Hot,Cash,Takeout,anon-03332,0.0,3.0,14.7
+HC009486,2025-06-06 12:24:38,Storefront,,Seasoned Fries,Sides,2,4.5,1.1,,Cash,Takeout,anon-03332,0.0,3.0,14.7
+HC009486,2025-06-06 12:24:38,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Cash,Takeout,anon-03332,0.0,3.0,14.7
+HC009486,2025-06-06 12:24:38,Storefront,,Double Stack Sandwich,Sandwich,1,15.5,5.9,Mild,Cash,Takeout,anon-03332,0.0,3.0,14.7
+HC009498,2025-06-06 12:47:04,Vendor Event,Camarillo Craft & Bites,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Medium,Cash,Takeout,,0.0,0.0,7.1
+HC009498,2025-06-06 12:47:04,Vendor Event,Camarillo Craft & Bites,Banana Pudding Shake,Drinks,1,7.0,2.2,,Cash,Takeout,,0.0,0.0,7.1
+HC009521,2025-06-06 15:03:03,Vendor Event,Camarillo Craft & Bites,Wings 6pc,Wings,1,11.0,4.6,Hot,Apple Pay,Takeout,,0.0,0.0,11.4
+HC009521,2025-06-06 15:03:03,Vendor Event,Camarillo Craft & Bites,Mac & Cheese,Sides,2,5.5,1.7,,Apple Pay,Takeout,,0.0,0.0,11.4
+HC009521,2025-06-06 15:03:03,Vendor Event,Camarillo Craft & Bites,Tenders 8pc,Tenders,1,19.5,6.4,Extra Hot,Apple Pay,Takeout,,0.0,0.0,11.4
+HC009521,2025-06-06 15:03:03,Vendor Event,Camarillo Craft & Bites,Tender Combo,Combos,1,18.0,6.1,Medium,Apple Pay,Takeout,,0.0,0.0,11.4
+HC009521,2025-06-06 15:03:03,Vendor Event,Camarillo Craft & Bites,Coleslaw,Sides,1,4.0,0.85,,Apple Pay,Takeout,,0.0,0.0,11.4
+HC009521,2025-06-06 15:03:03,Vendor Event,Camarillo Craft & Bites,Tender Combo,Combos,1,18.0,6.1,Mild,Apple Pay,Takeout,,0.0,0.0,11.4
+HC009522,2025-06-06 15:05:33,Vendor Event,Camarillo Craft & Bites,Sandwich Combo,Combos,1,17.5,5.8,Extra Hot,Card,Dine-in,anon-04961,0.0,0.0,10.1
+HC009522,2025-06-06 15:05:33,Vendor Event,Camarillo Craft & Bites,Coleslaw,Sides,1,4.0,0.85,,Card,Dine-in,anon-04961,0.0,0.0,10.1
+HC009522,2025-06-06 15:05:33,Vendor Event,Camarillo Craft & Bites,Tenders 5pc,Tenders,1,14.0,4.3,Hot,Card,Dine-in,anon-04961,0.0,0.0,10.1
+HC009522,2025-06-06 15:05:33,Vendor Event,Camarillo Craft & Bites,Lemonade,Drinks,1,4.0,0.65,,Card,Dine-in,anon-04961,0.0,0.0,10.1
+HC009587,2025-06-07 11:32:51,Vendor Event,Camarillo Craft & Bites,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Extra Hot,Cash,Takeout,,0.0,3.0,10.6
+HC009587,2025-06-07 11:32:51,Vendor Event,Camarillo Craft & Bites,Coleslaw,Sides,1,4.0,0.85,,Cash,Takeout,,0.0,3.0,10.6
+HC009587,2025-06-07 11:32:51,Vendor Event,Camarillo Craft & Bites,Sweet Tea,Drinks,1,3.5,0.4,,Cash,Takeout,,0.0,3.0,10.6
+HC009587,2025-06-07 11:32:51,Vendor Event,Camarillo Craft & Bites,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Cash,Takeout,,0.0,3.0,10.6
+HC009587,2025-06-07 11:32:51,Vendor Event,Camarillo Craft & Bites,Seasoned Fries,Sides,1,4.5,1.1,,Cash,Takeout,,0.0,3.0,10.6
+HC009605,2025-06-07 12:41:38,Vendor Event,Camarillo Craft & Bites,Sandwich Combo,Combos,1,17.5,5.8,Medium,Card,Takeout,,0.0,2.73,7.6
+HC009608,2025-06-07 12:53:14,Storefront,,Tender Combo,Combos,1,18.0,6.1,Medium,Cash,Dine-in,anon-02631,0.0,0.0,7.3
+HC009682,2025-06-07 17:48:08,Vendor Event,Camarillo Craft & Bites,Sandwich Combo,Combos,1,17.5,5.8,Mild,Cash,Takeout,,0.0,0.0,8.4
+HC009682,2025-06-07 17:48:08,Vendor Event,Camarillo Craft & Bites,Sandwich Combo,Combos,1,17.5,5.8,Hot,Cash,Takeout,,0.0,0.0,8.4
+HC009682,2025-06-07 17:48:08,Vendor Event,Camarillo Craft & Bites,Seasoned Fries,Sides,1,4.5,1.1,,Cash,Takeout,,0.0,0.0,8.4
+HC009682,2025-06-07 17:48:08,Vendor Event,Camarillo Craft & Bites,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Extra Hot,Cash,Takeout,,0.0,0.0,8.4
+HC009682,2025-06-07 17:48:08,Vendor Event,Camarillo Craft & Bites,Lemonade,Drinks,1,4.0,0.65,,Cash,Takeout,,0.0,0.0,8.4
+HC009728,2025-06-07 20:01:25,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Mild,Online,Delivery App,anon-06282,0.0,4.62,9.9
+HC009728,2025-06-07 20:01:25,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Online,Delivery App,anon-06282,0.0,4.62,9.9
+HC009728,2025-06-07 20:01:25,Storefront,,Double Stack Sandwich,Sandwich,1,15.5,5.9,Medium,Online,Delivery App,anon-06282,0.0,4.62,9.9
+HC009728,2025-06-07 20:01:25,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Online,Delivery App,anon-06282,0.0,4.62,9.9
+HC009768,2025-06-08 17:33:40,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Hot,Card,Dine-in,,0.0,0.0,9.8
+HC009768,2025-06-08 17:33:40,Storefront,,Banana Pudding Shake,Drinks,1,7.0,2.2,,Card,Dine-in,,0.0,0.0,9.8
+HC009787,2025-06-08 19:19:23,Storefront,,Tender Combo,Combos,1,18.0,6.1,Extra Hot,Online,Takeout,,0.0,2.3,10.9
+HC009787,2025-06-08 19:19:23,Storefront,,Pickle Chips,Sides,1,3.0,0.55,,Online,Takeout,,0.0,2.3,10.9
+HC009821,2025-06-10 17:30:29,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,Hot,Online,Takeout,,0.0,0.0,10.8
+HC009821,2025-06-10 17:30:29,Storefront,,Pickle Chips,Sides,1,3.0,0.55,,Online,Takeout,,0.0,0.0,10.8
+HC009857,2025-06-11 15:02:25,Storefront,,Tender Combo,Combos,1,18.0,6.1,Extra Hot,Apple Pay,Takeout,,0.0,0.0,5.6
+HC009918,2025-06-12 19:19:44,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Mild,Card,Takeout,anon-04948,0.0,3.12,11.1
+HC009918,2025-06-12 19:19:44,Storefront,,Seasoned Fries,Sides,2,4.5,1.1,,Card,Takeout,anon-04948,0.0,3.12,11.1
+HC009918,2025-06-12 19:19:44,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Extra Hot,Card,Takeout,anon-04948,0.0,3.12,11.1
+HC009918,2025-06-12 19:19:44,Storefront,,Fountain Soda,Drinks,1,3.0,0.45,,Card,Takeout,anon-04948,0.0,3.12,11.1
+HC009937,2025-06-13 12:15:07,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Medium,Apple Pay,Takeout,,0.0,0.0,8.4
+HC009964,2025-06-13 17:33:04,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Medium,Online,Delivery App,anon-02477,0.0,2.13,12.6
+HC009984,2025-06-13 18:20:11,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Extra Hot,Card,Takeout,,0.0,2.83,14.3
+HC009984,2025-06-13 18:20:11,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Card,Takeout,,0.0,2.83,14.3
+HC010211,2025-06-15 19:05:14,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Hot,Cash,Dine-in,anon-04643,0.0,0.0,11.5
+HC010211,2025-06-15 19:05:14,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Cash,Dine-in,anon-04643,0.0,0.0,11.5
+HC010211,2025-06-15 19:05:14,Storefront,,Cornbread,Sides,1,3.5,0.8,,Cash,Dine-in,anon-04643,0.0,0.0,11.5
+HC010211,2025-06-15 19:05:14,Storefront,,Fountain Soda,Drinks,1,3.0,0.45,,Cash,Dine-in,anon-04643,0.0,0.0,11.5
+HC010239,2025-06-17 15:09:00,Storefront,,Wing Combo,Combos,1,20.5,8.3,Extra Hot,Online,Delivery App,anon-00294,0.0,3.09,7.8
+HC010262,2025-06-18 11:36:51,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,Mild,Online,Delivery App,anon-01151,2.0,0.0,10.6
+HC010262,2025-06-18 11:36:51,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Online,Delivery App,anon-01151,2.0,0.0,10.6
+HC010262,2025-06-18 11:36:51,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Online,Delivery App,anon-01151,2.0,0.0,10.6
+HC010262,2025-06-18 11:36:51,Storefront,,Fountain Soda,Drinks,1,3.0,0.45,,Online,Delivery App,anon-01151,2.0,0.0,10.6
+HC010262,2025-06-18 11:36:51,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Mild,Online,Delivery App,anon-01151,2.0,0.0,10.6
+HC010285,2025-06-18 19:21:30,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Hot,Card,Takeout,,0.0,0.0,6.0
+HC010293,2025-06-19 11:43:19,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Hot,Apple Pay,Dine-in,anon-05664,0.0,4.57,7.7
+HC010293,2025-06-19 11:43:19,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Apple Pay,Dine-in,anon-05664,0.0,4.57,7.7
+HC010298,2025-06-19 12:22:16,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Hot,Online,Delivery App,anon-03308,0.0,2.99,14.0
+HC010298,2025-06-19 12:22:16,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Online,Delivery App,anon-03308,0.0,2.99,14.0
+HC010298,2025-06-19 12:22:16,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Online,Delivery App,anon-03308,0.0,2.99,14.0
+HC010321,2025-06-19 18:36:22,Storefront,,Double Stack Sandwich,Sandwich,1,15.5,5.9,Reaper,Card,Dine-in,anon-06033,0.0,4.61,9.3
+HC010321,2025-06-19 18:36:22,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Card,Dine-in,anon-06033,0.0,4.61,9.3
+HC010321,2025-06-19 18:36:22,Storefront,,Fountain Soda,Drinks,1,3.0,0.45,,Card,Dine-in,anon-06033,0.0,4.61,9.3
+HC010349,2025-06-20 15:16:14,Storefront,,Double Stack Sandwich,Sandwich,1,15.5,5.9,Reaper,Card,Dine-in,,0.0,5.61,5.7
+HC010349,2025-06-20 15:16:14,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Card,Dine-in,,0.0,5.61,5.7
+HC010349,2025-06-20 15:16:14,Storefront,,Sweet Tea,Drinks,1,3.5,0.4,,Card,Dine-in,,0.0,5.61,5.7
+HC010425,2025-06-20 19:09:34,Storefront,,Tenders 5pc,Tenders,1,14.0,4.3,Mild,Card,Dine-in,anon-02523,0.0,2.58,11.9
+HC010492,2025-06-20 20:59:41,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Medium,Cash,Takeout,,0.0,1.0,6.3
+HC010502,2025-06-20 21:29:59,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Hot,Online,Delivery App,anon-05744,0.0,3.1,10.9
+HC010502,2025-06-20 21:29:59,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Medium,Online,Delivery App,anon-05744,0.0,3.1,10.9
+HC010525,2025-06-21 12:58:58,Storefront,,Tender Combo,Combos,1,18.0,6.1,Hot,Card,Dine-in,,0.0,0.0,10.6
+HC010567,2025-06-21 19:34:35,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Hot,Online,Delivery App,anon-01877,0.0,5.62,11.4
+HC010567,2025-06-21 19:34:35,Storefront,,Cornbread,Sides,1,3.5,0.8,,Online,Delivery App,anon-01877,0.0,5.62,11.4
+HC010567,2025-06-21 19:34:35,Storefront,,Wing Combo,Combos,1,20.5,8.3,Medium,Online,Delivery App,anon-01877,0.0,5.62,11.4
+HC010595,2025-06-22 14:25:27,Storefront,,Tender Combo,Combos,1,18.0,6.1,Mild,Apple Pay,Takeout,,0.0,4.37,7.8
+HC010595,2025-06-22 14:25:27,Storefront,,Wing Combo,Combos,1,20.5,8.3,Mild,Apple Pay,Takeout,,0.0,4.37,7.8
+HC010630,2025-06-24 14:54:28,Storefront,,Tenders 8pc,Tenders,1,19.5,6.4,Hot,Apple Pay,Dine-in,,0.0,5.33,5.2
+HC010630,2025-06-24 14:54:28,Storefront,,Tender Combo,Combos,1,18.0,6.1,Hot,Apple Pay,Dine-in,,0.0,5.33,5.2
+HC010633,2025-06-24 16:07:54,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Mild,Online,Delivery App,anon-02348,0.0,3.43,8.9
+HC010633,2025-06-24 16:07:54,Storefront,,Chicken & Waffle Sandwich,Sandwich,1,13.5,4.3,Mild,Online,Delivery App,anon-02348,0.0,3.43,8.9
+HC010633,2025-06-24 16:07:54,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Online,Delivery App,anon-02348,0.0,3.43,8.9
+HC010652,2025-06-24 18:57:03,Storefront,,Tender Combo,Combos,1,18.0,6.1,Medium,Card,Takeout,anon-01061,0.0,0.0,12.9
+HC010652,2025-06-24 18:57:03,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Medium,Card,Takeout,anon-01061,0.0,0.0,12.9
+HC010652,2025-06-24 18:57:03,Storefront,,Wings 10pc,Wings,1,17.0,7.2,Mild,Card,Takeout,anon-01061,0.0,0.0,12.9
+HC010652,2025-06-24 18:57:03,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Card,Takeout,anon-01061,0.0,0.0,12.9
+HC010652,2025-06-24 18:57:03,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Card,Takeout,anon-01061,0.0,0.0,12.9
+HC010713,2025-06-26 13:05:00,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Hot,Online,Delivery App,anon-00525,0.0,1.65,12.0
+HC010713,2025-06-26 13:05:00,Storefront,,Pickle Chips,Sides,1,3.0,0.55,,Online,Delivery App,anon-00525,0.0,1.65,12.0
+HC010932,2025-06-28 13:17:09,Storefront,,Tender Combo,Combos,1,18.0,6.1,Mild,Online,Takeout,,0.0,3.78,9.3
+HC010932,2025-06-28 13:17:09,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Online,Takeout,,0.0,3.78,9.3
+HC010934,2025-06-28 13:25:09,Storefront,,Double Stack Sandwich,Sandwich,1,15.5,5.9,Medium,Apple Pay,Dine-in,anon-05819,0.0,9.63,12.5
+HC010934,2025-06-28 13:25:09,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Apple Pay,Dine-in,anon-05819,0.0,9.63,12.5
+HC010934,2025-06-28 13:25:09,Storefront,,Fountain Soda,Drinks,1,3.0,0.45,,Apple Pay,Dine-in,anon-05819,0.0,9.63,12.5
+HC010934,2025-06-28 13:25:09,Storefront,,Wing Combo,Combos,1,20.5,8.3,Extra Hot,Apple Pay,Dine-in,anon-05819,0.0,9.63,12.5
+HC010935,2025-06-28 13:54:02,Storefront,,Wings 6pc,Wings,1,11.0,4.6,No Heat,Online,Delivery App,anon-01447,0.0,3.71,9.3
+HC010935,2025-06-28 13:54:02,Storefront,,Lemonade,Drinks,1,4.0,0.65,,Online,Delivery App,anon-01447,0.0,3.71,9.3
+HC010935,2025-06-28 13:54:02,Storefront,,Sandwich Combo,Combos,1,17.5,5.8,Medium,Online,Delivery App,anon-01447,0.0,3.71,9.3
+HC010964,2025-06-28 18:38:09,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Hot,Cash,Dine-in,anon-04478,0.0,0.0,17.1
+HC010964,2025-06-28 18:38:09,Storefront,,Tender Combo,Combos,1,18.0,6.1,Medium,Cash,Dine-in,anon-04478,0.0,0.0,17.1
+HC010964,2025-06-28 18:38:09,Storefront,,Seasoned Fries,Sides,1,4.5,1.1,,Cash,Dine-in,anon-04478,0.0,0.0,17.1
+HC010967,2025-06-28 18:41:57,Storefront,,Wings 6pc,Wings,1,11.0,4.6,Hot,Card,Dine-in,anon-02615,0.0,9.97,19.8
+HC010967,2025-06-28 18:41:57,Storefront,,Mac & Cheese,Sides,1,5.5,1.7,,Card,Dine-in,anon-02615,0.0,9.97,19.8
+HC010967,2025-06-28 18:41:57,Storefront,,Wings 6pc,Wings,1,11.0,4.6,Medium,Card,Dine-in,anon-02615,0.0,9.97,19.8
+HC010967,2025-06-28 18:41:57,Storefront,,Tenders 3pc,Tenders,1,9.5,2.85,Medium,Card,Dine-in,anon-02615,0.0,9.97,19.8
+HC010967,2025-06-28 18:41:57,Storefront,,Pickle Chips,Sides,1,3.0,0.55,,Card,Dine-in,anon-02615,0.0,9.97,19.8
+HC011018,2025-06-29 14:27:53,Storefront,,Wing Combo,Combos,1,20.5,8.3,Medium,Cash,Takeout,anon-05448,0.0,1.0,8.5
+HC011018,2025-06-29 14:27:53,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Hot,Cash,Takeout,anon-05448,0.0,1.0,8.5
+HC011018,2025-06-29 14:27:53,Storefront,,Classic Hot Chicken Sandwich,Sandwich,1,12.5,3.85,Extra Hot,Cash,Takeout,anon-05448,0.0,1.0,8.5
+HC011018,2025-06-29 14:27:53,Storefront,,Pickle Chips,Sides,1,3.0,0.55,,Cash,Takeout,anon-05448,0.0,1.0,8.5

@@ -86,6 +86,13 @@ table.data td{text-align:right;padding:8px 10px;border-bottom:1px solid var(--li
 .insight .do{font-size:.88rem;background:#FFF1D6;border-radius:8px;padding:8px 10px}
 .insight .do b{color:var(--red)}
 
+/* ---------- sensitivity ---------- */
+.sliders{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px 28px;margin-bottom:14px}
+.sliders label{display:block;font-size:.9rem;font-weight:600}
+.sliders b{color:var(--red)}
+.sliders input[type=range]{width:100%;accent-color:var(--red);margin-top:6px}
+.good{color:#1F1F1F}.bad{color:var(--red);font-weight:700}
+.note-sm{font-size:.78rem;color:var(--muted);margin:8px 0 0}
 footer{background:var(--charcoal);color:#CFC8B4;padding:22px 0;font-size:.85rem}
 footer a{color:var(--orange)}
 footer strong{color:var(--cream)}
@@ -136,6 +143,27 @@ footer strong{color:var(--cream)}
     <div class="card c-12"><h3>Channel scorecard after direct costs</h3><div class="tbl-scroll"><table class="data" id="scoreTbl"></table></div></div>
     <div class="card c-12"><h3>Vendor event ROI (after booth fee and staff cost)</h3><div class="tbl-scroll"><table class="data" id="eventTbl"></table></div></div>
   </div>
+
+  <section id="sensSection">
+  <h2>How sure are we?</h2>
+  <p class="sub">Labor cost and event attendance are assumptions, so stress-test them. Move the sliders and every number below recalculates in your browser.</p>
+  <div class="grid">
+    <div class="card c-12">
+      <div class="sliders">
+        <label>Loaded labor rate: <b id="wageVal"></b><input type="range" id="wage" min="14" max="32" step="1" value="22" aria-label="Loaded labor rate per hour"></label>
+        <label>Event attendance vs 2025: <b id="attVal"></b><input type="range" id="att" min="-40" max="30" step="5" value="0" aria-label="Event attendance change"></label>
+      </div>
+      <div class="kpis" id="sensKpis"></div>
+      <p class="note-sm">Assumes fewer staff does not reduce sales, and that event food cost scales with sales while booth fee and staff stay fixed.</p>
+    </div>
+    <div class="card c-12"><h3>Event ROI under these settings</h3><div class="tbl-scroll"><table class="data" id="sensEvents"></table></div></div>
+    <div class="card c-12"><h3>Storefront weekday break-even (95% confidence intervals)</h3><div class="tbl-scroll"><table class="data" id="wkTbl"></table></div>
+      <p class="note-sm">Confidence intervals come from 5,000 bootstrap resamples of daily gross profit.</p></div>
+    <div class="card c-12"><h3>Statistical checks on the key claims</h3><div class="tbl-scroll"><table class="data" id="testTbl"></table></div></div>
+    <div class="card c-12"><h3>2026 plan: worst, typical and best case (annual $ improvement)</h3><div class="tbl-scroll"><table class="data" id="scenTbl"></table></div>
+      <p class="note-sm">Illustrative scenarios built from 2025 results, not a forecast. "Worst" assumes some sales are lost when staffing is cut, replacement events earn nothing, and a 15% volume loss on the wings price increase.</p></div>
+  </div>
+  </section>
 
   <h2>Insights &amp; recommendations</h2>
   <p class="sub">Every number below is computed from the data by <code>scripts/export_dashboard_data.py</code>.</p>
@@ -344,6 +372,45 @@ function renderTables() {
   $("#insights").innerHTML = D.insights.map(i => `<article class="insight"><div class="tag">${i.tag}</div><div class="stat">${i.stat}</div>
     <h4>${i.title}</h4><p>${i.body}</p><div class="do"><b>Recommendation:</b> ${i.action}</div></article>`).join("");
 }
+
+/* ---------- sensitivity section ---------- */
+function renderSensTables() {
+  const S = D.sens, head = cols => "<thead><tr>" + cols.map(c => `<th>${c}</th>`).join("") + "</tr></thead>";
+  const money = v => (v < 0 ? "\u2212" : "") + usd(Math.abs(v));
+  $("#wkTbl").innerHTML = head(["Day", "Days", "Avg profit/day", "95% CI", "Crew cost/day", "Break-even wage", "Days below cost"]) + "<tbody>" +
+    S.weekday.map(r => `<tr><td>${r.day}</td><td>${r.days_operated}</td><td>${usd(r.avg_gross_profit_per_day)}</td><td>${usd(r.ci95_low)}&ndash;${usd(r.ci95_high)}</td>
+      <td>${usd(r.crew_cost_per_day)}</td><td>${usd2(r.breakeven_hourly_wage)}/hr</td><td class="${r.mean_below_cost_with_95pct_confidence ? "bad" : ""}">${r.pct_days_below_crew_cost}%</td></tr>`).join("") + "</tbody>";
+  $("#testTbl").innerHTML = head(["Claim", "Estimate (95% CI)", "Result"]) + "<tbody>" +
+    S.tests.map(r => `<tr><td style="text-align:left">${r.claim}</td><td>${r.estimate.toLocaleString()} (${r.ci95_low.toLocaleString()} to ${r.ci95_high.toLocaleString()})</td><td style="text-align:left">${r.conclusion}</td></tr>`).join("") + "</tbody>";
+  $("#scenTbl").innerHTML = head(["Change", "Worst case", "Typical case", "Best case"]) + "<tbody>" +
+    S.scenarios.map(r => { const pctRow = r.lever.startsWith("Improvement"), tot = r.lever.startsWith("TOTAL"), f = v => pctRow ? v + "%" : money(v);
+      return `<tr style="${tot ? "font-weight:800" : ""}"><td>${r.lever}</td><td>${f(r.worst_case)}</td><td>${f(r.typical_case)}</td><td>${f(r.best_case)}</td></tr>`; }).join("") + "</tbody>";
+}
+function renderSens() {
+  const S = D.sens, w = +$("#wage").value, a = +$("#att").value / 100;
+  $("#wageVal").textContent = "$" + w + "/hr";
+  $("#attVal").textContent = (a > 0 ? "+" : "") + Math.round(a * 100) + "%";
+  const crew = 3 * 10 * w, below = S.tue_wed_mean_gp < crew;
+  const saving = S.cut_days * 10 * w, late = 3 * 2.5 * w * S.late_nights - S.late_gp, sfc = S.sf_gp - S.sf_labor_hours * w;
+  const rows = S.events.map(e => { const staff = e.staff_count * e.event_days * 10 * w, net = e.gp * (1 + a) - e.booth_fee - staff, roi = net / (e.booth_fee + staff);
+    return {e, staff, net, roi, verdict: roi >= 3 ? "KEEP - priority" : roi >= 1 ? "KEEP" : "REVIEW / DROP"}; }).sort((x, y) => y.roi - x.roi);
+  const review = rows.filter(r => r.verdict === "REVIEW / DROP").length, losing = rows.filter(r => r.net < 0).length;
+  const cards = [
+    ["Tue-Wed cut saves", usd(saving), below ? "crew costs more than a day earns" : "no longer below crew cost at this wage"],
+    ["Storefront contribution", (sfc < 0 ? "\u2212" : "") + usd(Math.abs(sfc)), "gross profit \u2212 labor"],
+    ["Late-night shortfall", late > 0 ? usd(late) : "none", "3-person crew after 9pm"],
+    ["Events to review", String(review), losing ? losing + " losing money" : "none losing money"],
+  ];
+  $("#sensKpis").innerHTML = cards.map(k => `<div class="kpi"><div class="lbl">${k[0]}</div><div class="val">${k[1]}</div><div class="note">${k[2]}</div></div>`).join("");
+  const chip = v => v.startsWith("KEEP - ") ? '<span class="chip keep">KEEP &middot; priority</span>' : v === "KEEP" ? '<span class="chip ok">KEEP</span>' : '<span class="chip drop">REVIEW / DROP</span>';
+  $("#sensEvents").innerHTML = "<thead><tr><th>Event</th><th>Gross profit</th><th>Booth fee</th><th>Staff cost</th><th>Net profit</th><th>ROI</th><th>Verdict</th></tr></thead><tbody>" +
+    rows.map(r => `<tr><td>${r.e.event_name}</td><td>${usd(r.e.gp * (1 + a))}</td><td>${usd(r.e.booth_fee)}</td><td>${usd(r.staff)}</td>
+      <td class="${r.net < 0 ? "bad" : ""}"><b>${(r.net < 0 ? "\u2212" : "") + usd(Math.abs(r.net))}</b></td><td>${Math.round(r.roi * 100)}%</td><td>${chip(r.verdict)}</td></tr>`).join("") + "</tbody>";
+}
+if (D.sens) {
+  renderSensTables(); renderSens();
+  $("#wage").addEventListener("input", renderSens); $("#att").addEventListener("input", renderSens);
+} else { $("#sensSection").hidden = true; }
 
 renderTables();
 render();

@@ -9,10 +9,11 @@ Run from the repo root:   python scripts/export_dashboard_data.py
    and writes the single self-contained file docs/index.html.
 """
 import json
+import sys
 
 import pandas as pd
 
-from paths import CLEAN_DIR, DOCS_DIR, ROOT, SQL_RESULTS_DIR, TEMPLATE_DIR, ensure_dirs
+from paths import CLEAN_DIR, DATASET, DOCS_DIR, SENSITIVITY_DIR, SQL_RESULTS_DIR, TEMPLATE_DIR, ensure_dirs
 
 ensure_dirs()
 CHANNELS = ["Storefront", "Night Market", "Vendor Event"]
@@ -74,12 +75,14 @@ def compute_insights():
     weak = ev[ev.verdict == "REVIEW / DROP"]
     strong = ev[ev.verdict != "REVIEW / DROP"]
 
-    # Storefront weekday economics vs a 3-person crew at $22/hr x 10 hrs = $660/day
+    # Storefront weekday economics vs a 3-person crew at $22/hr x 10 hrs = $660/day.
+    # Tue+Wed are below cost with 95% confidence; Thursday is break-even (see sensitivity_analysis.py).
     sf = orders[orders.channel == "Storefront"]
     sf_day = sf.groupby(["order_date", "day_of_week_num"]).gross_profit.sum().reset_index()
     by_dow = sf_day.groupby("day_of_week_num").gross_profit.agg(["mean", "count"])
-    midweek = by_dow.loc[[1, 2, 3]]
-    midweek_savings = int(midweek["count"].sum() * 10 * 22)
+    cut = by_dow.loc[[1, 2]]
+    midweek_savings = int(cut["count"].sum() * 10 * 22)
+    thu_extra = int(by_dow.loc[3, "count"] * 10 * 22)
 
     q12 = sql_result("Q12")
     evb = q12[q12.channel == "Vendor Event"].set_index("bucket_order")
@@ -129,10 +132,11 @@ def compute_insights():
                   f"July-August alone is {pct(jul_aug)} of annual revenue.",
              action="Keep the six strong events, renegotiate or drop the two weak ones, and use the freed dates for large summer/fall regional festivals."),
         dict(tag="Staffing", stat=usd(midweek_savings),
-             title="Tue-Thu storefront days earn less gross profit than a 3-person crew costs",
-             body=f"Gross profit averages {usd(by_dow.loc[1, 'mean'])} (Tue), {usd(by_dow.loc[2, 'mean'])} (Wed), {usd(by_dow.loc[3, 'mean'])} (Thu) versus $660 of daily labor "
-                  f"(3 staff x 10 hrs x $22). Fri/Sat average {usd(by_dow.loc[4, 'mean'])}/{usd(by_dow.loc[5, 'mean'])}.",
-             action=f"Run 2 staff Tue-Thu and keep 3-4 on Fri-Sun: about {usd(midweek_savings)} saved per year."),
+             title="Tue-Wed storefront days earn less gross profit than a 3-person crew costs",
+             body=f"Gross profit averages {usd(by_dow.loc[1, 'mean'])} (Tue) and {usd(by_dow.loc[2, 'mean'])} (Wed) versus $660 of daily labor "
+                  f"(3 staff x 10 hrs x $22), below cost with 95% confidence. Thursday ({usd(by_dow.loc[3, 'mean'])}) is break-even within the margin of error. "
+                  f"The finding holds only if loaded labor is above roughly $19/hr.",
+             action=f"Run 2 staff Tue-Wed (about {usd(midweek_savings)} saved per year) and pilot 2 staff on Thursday for 6 weeks (up to {usd(thu_extra)} more if sales hold)."),
         dict(tag="Operations", stat=f"{evb.loc[5, 'avg_prep_min']:.0f} min",
              title="Event kitchens slow down sharply once an hour passes 60 orders",
              body=f"Prep time averages {evb.loc[5, 'avg_prep_min']:.1f} min in 61+ order hours vs {evb.loc[1, 'avg_prep_min']:.1f} min in quiet hours, and "
@@ -163,7 +167,13 @@ def compute_insights():
     ]
 
 
-insights = compute_insights()
+try:
+    insights = compute_insights()
+except Exception as exc:   # the written insights are built around the demo data; skip them for other datasets
+    if DATASET == "synthetic":
+        raise
+    print(f"Insights skipped for real data ({type(exc).__name__}: {exc})")
+    insights = []
 
 payload = {
     "months": MONTHS, "channels": CHANNELS, "days": DAYS, "spice": SPICE, "items": item_names,
@@ -174,6 +184,7 @@ payload = {
     "scorecard": scorecard[["channel", "orders", "revenue", "gross_profit", "labor_cost", "booth_fees",
                             "contribution_after_direct_costs", "gross_profit_per_labor_hour"]].to_dict("records"),
     "insights": insights,
+    "sens": json.loads((SENSITIVITY_DIR / "sensitivity_summary.json").read_text()) if (SENSITIVITY_DIR / "sensitivity_summary.json").exists() else None,
 }
 
 template = (TEMPLATE_DIR / "dashboard_template.html").read_text()

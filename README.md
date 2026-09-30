@@ -7,11 +7,24 @@
 ![Excel](https://img.shields.io/badge/Excel-Dashboard-217346?logo=microsoftexcel&logoColor=white)
 ![Chart.js](https://img.shields.io/badge/Chart.js-Live%20Dashboard-FF6384?logo=chartdotjs&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-Data%20Cleaning-150458?logo=pandas&logoColor=white)
+![CI](https://github.com/amanubhi/Heat-Check---Sales-Operations-Dashboard/actions/workflows/ci.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-### 👉 [Live Dashboard](https://amanubhi.github.io/Heat-Check---Sales-Operations-Dashboard/) &nbsp;|&nbsp; [Insights report](reports/insights.md) &nbsp;|&nbsp; [SQL analysis](sql/analysis.sql) &nbsp;|&nbsp; [Excel guide](excel/README_excel.md)
+### 👉 [Live Dashboard](https://amanubhi.github.io/Heat-Check---Sales-Operations-Dashboard/) &nbsp;|&nbsp; [Insights report](reports/insights.md) &nbsp;|&nbsp; [SQL analysis](sql/analysis.sql) &nbsp;|&nbsp; [Excel guide](excel/README_excel.md) &nbsp;|&nbsp; [Case study](CASE_STUDY.md) &nbsp;|&nbsp; [Project plan](PROJECT_PLAN.md)
 
 ![Web dashboard](assets/web_dashboard.png)
+
+---
+
+## ⚡ Case study in 60 seconds
+
+**Problem.** A small restaurant sells through a storefront, a Friday night market and eight vendor events. Which channels, days and hours actually make money once staff and booth fees are paid?
+
+**Approach.** Cleaned 24K+ orders, answered 15 business questions in SQL, built Excel and web dashboards, then **stress-tested every recommendation** with labor-rate scenarios, bootstrap confidence intervals and significance tests.
+
+**Result.** Margin was ~66% everywhere, so the lever was *labor*, not menu. Events earn 31% of revenue in 21 of 310 selling days; Tue-Wed storefront shifts lose money on labor; event kitchens slow down sharply above 60 orders an hour. The five recommended changes are worth **$14k / $65k / $90k a year** (worst / typical / best case). One of my first findings did not survive the stress test and was narrowed, which is documented in the [insights report](reports/insights.md).
+
+👉 Longer version: [CASE_STUDY.md](CASE_STUDY.md) · How it was managed: [PROJECT_PLAN.md](PROJECT_PLAN.md)
 
 ---
 
@@ -27,7 +40,7 @@ The owner has sales data from all three but no clear answer to:
 
 > **Which channels, menu items, spice levels and time slots drive profit, and where should I focus staff, inventory and marketing next year?**
 
-This project answers that with cleaned data, 15 SQL queries, an Excel dashboard, an interactive web dashboard and a consultant-style recommendations report.
+This project answers that with cleaned data, 15 SQL queries, a stress-test of the assumptions, an Excel dashboard, an interactive web dashboard and a consultant-style recommendations report.
 
 ## 🧾 Key results at a glance (2025)
 
@@ -40,10 +53,19 @@ This project answers that with cleaned data, 15 SQL queries, an Excel dashboard,
 *(full write-up with reasoning and actions in [`reports/insights.md`](reports/insights.md))*
 
 1. **Vendor events earn 31% of revenue in 21 of 310 selling days.** Six of eight return 412-487% on booth fee plus staff cost; two (Camarillo, Santa Clarita) return only 12-56%. **Keep six, replace two.**
-2. **Tue-Thu storefront shifts lose money on labor.** Daily gross profit of $568-$653 is below the $660 cost of a 3-person crew. Running 2 staff mid-week saves about **$33.9k a year**.
+2. **Tue-Wed storefront shifts lose money on labor.** Daily gross profit of $568-$575 is below the $660 cost of a 3-person crew (95% confidence). Running 2 staff on those days saves about **$22.9k a year**; Thursday is break-even and becomes a pilot. *(This finding only holds if loaded labor is above about $19/hr.)*
 3. **The event kitchen is the bottleneck.** Prep time jumps from 7.6 to **18.1 minutes** in hours above 60 orders, and 83% of those orders wait over 15 minutes. A second fry station is the highest-leverage fix.
-4. **Wings have the lowest margin (57%) and drinks the highest (81%).** A $1 wings increase plus a drink add-on program is worth roughly **$13k**.
+4. **Wings have the lowest margin (57%) and drinks the highest (81%).** A drink add-on program and a wings price test are worth $0-$13k (typical ~$6.5k).
 5. **Loyalty members are worth about 2x per customer** ($137 vs $70) and repeat at 68% vs 48%, yet only 8% of event orders are linked to a customer. **Capture sign-ups at the booth.**
+
+## 🔬 How confident are we?
+
+Every recommendation depends on assumptions, so `scripts/sensitivity_analysis.py` stress-tests them (the live dashboard has sliders for labor rate and event attendance):
+
+- **Events hold up:** with attendance down 30%, all six strong events stay profitable (ROI 258-311%); the two weak ones stay between -22% and +9%.
+- **Staffing is conditional:** Tue/Wed are below crew cost with 95% confidence, but only if loaded labor is above about $19/hr. Thursday is not proven.
+- **Statistical checks:** loyalty members repeat 19.7 points more often (95% CI 15.9-23.6, p < 0.001); event prep time is 10.6 minutes longer in 61+ order hours (95% CI 10.3-10.8).
+- **2026 scenarios:** worst / typical / best = $14.4k / $65.2k / $89.6k a year, illustrative rather than a forecast.
 
 ## 🗂️ Dataset
 
@@ -112,10 +134,13 @@ Every cleaning step, with row counts, is logged in [`data/cleaning_log.md`](data
 |---|---|
 | **Data generation** | Seeded, realistic synthetic data with seasonality, rush patterns and injected errors (`scripts/generate_data.py`) |
 | **Data cleaning** | De-duplication, standardizing text, fixing impossible values, validation checks, a change log (`scripts/clean_data.py`) |
+| **Statistics** | Bootstrap confidence intervals, two-proportion z-test, sensitivity and scenario analysis (`scripts/sensitivity_analysis.py`) |
 | **SQL** | 15 documented queries using CTEs, window functions (`RANK`, `LAG`, running totals, `PARTITION BY`), `CASE`, joins, cohort analysis (`sql/analysis.sql`) |
-| **Excel** | Excel Tables, 280+ live `SUMIFS`/`COUNTIFS` formulas, 6 native charts, KPI cards, conditional-format heatmap, pivot/slicer guide |
+| **Excel** | Excel Tables, 300+ live `SUMIFS`/`COUNTIFS` formulas, 6 native charts, KPI cards, conditional-format heatmap, a dropdown-driven Explorer sheet, pivot/slicer guide |
 | **Visualization** | Interactive Chart.js dashboard with filters, responsive layout and a brand color theme |
 | **Business storytelling** | Findings framed as number -> why it matters -> recommendation, with dollar impact and stated assumptions (`reports/insights.md`) |
+| **Project management** | Charter, scope, risks, decision log and lessons learned in [`PROJECT_PLAN.md`](PROJECT_PLAN.md) |
+| **Testing & automation** | 15 automated checks that reconcile totals across CSV, SQLite, Excel and web; GitHub Actions CI on Python 3.10 and 3.12 |
 | **Engineering hygiene** | One-command pipeline, no hardcoded paths, reproducible seed, `requirements.txt`, MIT license |
 
 ## 📁 Project structure
@@ -123,36 +148,46 @@ Every cleaning step, with row counts, is logged in [`data/cleaning_log.md`](data
 ```
 .
 ├── README.md
+├── CASE_STUDY.md                  # one-page case study
+├── PROJECT_PLAN.md                # charter, risks, decisions, lessons learned
+├── REAL_DATA_GUIDE.md             # how to run on real POS exports (privately)
 ├── LICENSE
-├── requirements.txt
-├── run_all.py                     # runs the whole pipeline
+├── requirements.txt / requirements-dev.txt
+├── run_all.py                     # runs the whole pipeline (add --real for private data)
+├── .github/workflows/ci.yml       # runs the pipeline and tests on every push
 ├── assets/                        # screenshots used in this README
 ├── data/
 │   ├── raw/                       # synthetic CSVs with injected quality issues
 │   ├── clean/                     # cleaned CSVs with calculated fields
+│   ├── templates/                 # POS import templates and a small example
 │   ├── cleaning_log.md            # every change made during cleaning
 │   └── heatcheck.db               # SQLite database (built from clean data)
 ├── docs/                          # GitHub Pages site
 │   ├── index.html                 # self-contained interactive dashboard
 │   └── .nojekyll
 ├── excel/
-│   ├── HeatCheck_Dashboard.xlsx
+│   ├── HeatCheck_Dashboard.xlsx   # Dashboard, Explorer, Analysis + data sheets
 │   └── README_excel.md            # pivot tables + slicers to add manually
 ├── outputs/
-│   └── sql_results/               # one CSV per SQL query
+│   ├── sql_results/               # one CSV per SQL query
+│   └── sensitivity/               # stress-test results and scenarios
 ├── reports/
-│   └── insights.md                # findings and recommendations
+│   └── insights.md                # findings, recommendations, confidence
 ├── scripts/
 │   ├── paths.py                   # all file paths in one place
 │   ├── generate_data.py           # step 1
 │   ├── clean_data.py              # step 2
 │   ├── build_database.py          # step 3a: CSV -> SQLite
 │   ├── run_sql_analysis.py        # step 3b: run queries, export CSVs
+│   ├── sensitivity_analysis.py    # step 3c: stress tests and scenarios
 │   ├── build_excel.py             # step 4
 │   ├── export_dashboard_data.py   # step 5
+│   ├── import_real_data.py        # optional: load a real POS export
 │   └── templates/dashboard_template.html
-└── sql/
-    └── analysis.sql               # 15 commented queries
+├── sql/
+│   └── analysis.sql               # 15 commented queries
+└── tests/
+    └── test_pipeline.py           # 15 automated checks
 ```
 
 ## 📸 Screenshots
@@ -165,7 +200,9 @@ Every cleaning step, with row counts, is logged in [`data/cleaning_log.md`](data
 |---|---|---|
 | ![Heatmap](assets/heatmap.png) | ![SQL](assets/sql_query.png) | ![Event ROI](assets/event_roi.png) |
 
-*(Add your screenshots to the `assets/` folder using these file names.)*
+**Stress-test section** (sliders recalculate staffing savings and event ROI live):
+
+![Stress test](assets/stress_test.png)
 
 ## ▶️ How to reproduce
 
@@ -192,17 +229,32 @@ python scripts/generate_data.py          # 1. raw CSVs -> data/raw/
 python scripts/clean_data.py             # 2. clean CSVs -> data/clean/ + cleaning_log.md
 python scripts/build_database.py         # 3a. SQLite -> data/heatcheck.db
 python scripts/run_sql_analysis.py       # 3b. 15 query results -> outputs/sql_results/
+python scripts/sensitivity_analysis.py   # 3c. stress tests -> outputs/sensitivity/
 python scripts/build_excel.py            # 4. excel/HeatCheck_Dashboard.xlsx
 python scripts/export_dashboard_data.py  # 5. docs/index.html
 ```
 
 Open `docs/index.html` in any browser to view the dashboard locally. Requirements: `pandas`, `numpy`, `xlsxwriter`.
 
+**Run the tests** (they check that totals agree across CSV, SQLite, Excel and the web dashboard):
+
+```bash
+pip install -r requirements-dev.txt
+python -m unittest discover -s tests -v
+```
+
+**Use your own data:** see [REAL_DATA_GUIDE.md](REAL_DATA_GUIDE.md). Real data stays in a git-ignored `private/` folder:
+
+```bash
+python scripts/import_real_data.py --sales path/to/pos_export.csv --events path/to/events.csv
+python run_all.py --real
+```
+
 ## ⚠️ Assumptions & limitations
 
 - **Synthetic data.** Findings describe this simulated business, not a real one.
 - **Revenue** = item sales minus discounts (tips excluded). **Gross profit** = revenue minus food cost.
-- **Labor and booth costs are assumptions**, not in the raw data: $22/hr loaded labor; storefront 3 staff x 10 hrs (+2.5 hrs Fri/Sat); night market 3 staff x 6 hrs + $85 booth; events use actual booth fee and staff count x 10 hrs/day. Rent and owner pay are excluded. Edit them in the `assumptions` CTEs of `sql/analysis.sql`.
+- **Labor and booth costs are assumptions** (stress-tested in `outputs/sensitivity/`), not in the raw data: $22/hr loaded labor; storefront 3 staff x 10 hrs (+2.5 hrs Fri/Sat); night market 3 staff x 6 hrs + $85 booth; events use actual booth fee and staff count x 10 hrs/day. Rent and owner pay are excluded. Edit them in the `assumptions` CTEs of `sql/analysis.sql`.
 - **Customer metrics** cover only orders with a customer ID (about 35% of orders). Customers already active in January are all grouped in the January cohort.
 
 ## 👤 About me

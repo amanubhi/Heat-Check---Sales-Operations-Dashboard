@@ -5,12 +5,13 @@
 | Sheet | What it is |
 |---|---|
 | **Dashboard** | KPI cards, 6 native charts and a day x hour heatmap (all linked to the Analysis sheet) |
+| **Explorer** | Pick a **Channel** and **Month** from the orange dropdown cells and the KPIs, tables and 4 charts recalculate instantly (live `SUMIFS`). This works without pivot tables. |
 | **Analysis** | 10 summary tables. Sections 1-8 are live `SUMIFS` / `COUNTIFS` formulas on the data sheets; 9-10 are values from SQL queries Q02 and Q03 |
 | **Orders, Order_Items, Menu, Customers, Events** | Clean data, each formatted as an Excel Table (`Tbl_Orders`, `Tbl_Order_Items`, `Tbl_Menu`, `Tbl_Customers`, `Tbl_Events`) so pivot tables can use them by name |
 
 Colors: charcoal `#1F1F1F`, flame red `#D7263D`, orange `#F46036`, cream `#FFF8E7`.
 
-> Python cannot create real pivot tables or slicers, so the steps below are the part you add by hand. It takes about 15 minutes and is a good portfolio talking point.
+> Python cannot create real pivot tables or slicers, so the steps below are the part you add by hand. (The **Explorer** sheet already gives you dropdown filtering without them.) It takes about 15 minutes and is a good portfolio talking point.
 
 ---
 
@@ -28,7 +29,7 @@ For each one: click any cell in the source table, then **Insert > PivotTable > F
 | 6 | `pvt_EventPerformance` | `Tbl_Orders` | `event_name` | (none) | Sum of `revenue`, Sum of `gross_profit`, Count of `order_id` | Filter `channel` = Vendor Event |
 | 7 | `pvt_Loyalty` | `Tbl_Orders` | `loyalty_member` | (none) | Count of `order_id`, Average of `revenue` | Filter out blank (walk-ups) |
 
-**Tip:** for pivots 3 and 4, which use `Tbl_Order_Items`, `channel` and `month` are not columns there. To slice them by channel or month, add a lookup column to `Tbl_Order_Items`, e.g. `=XLOOKUP([@order_id], Tbl_Orders[order_id], Tbl_Orders[channel])`.
+**Tip:** `Tbl_Order_Items` already includes `channel`, `month` and `month_name`, so pivots 3 and 4 can be sliced by channel and month with no lookup column.
 
 ---
 
@@ -38,8 +39,8 @@ Select a pivot table, then **PivotTable Analyze > Insert Slicer**. Place them al
 
 | Slicer | Field | Connect to pivots | Where the field lives |
 |---|---|---|---|
-| **Channel** | `channel` | 1, 2, 5, 6 (and 3/4 after adding the lookup column) | `Tbl_Orders` |
-| **Month** | `month_name` | 1, 2, 5, 6 (and 3/4 after the lookup) | `Tbl_Orders` |
+| **Channel** | `channel` | 1, 2, 5, 6 (use the `Tbl_Order_Items` `channel` field for 3 and 4) | `Tbl_Orders` / `Tbl_Order_Items` |
+| **Month** | `month_name` | 1, 2, 5, 6 (use the `Tbl_Order_Items` `month_name` field for 3 and 4) | `Tbl_Orders` / `Tbl_Order_Items` |
 | **Category** | `category` | 3, 4 | `Tbl_Order_Items` |
 | **Spice Level** | `spice_level` | 3, 4 | `Tbl_Order_Items` |
 

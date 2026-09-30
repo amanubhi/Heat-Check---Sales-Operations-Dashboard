@@ -10,18 +10,18 @@
 
 Heat Check sold **$706,870** in 2025 at a **66.6% gross margin** (**$470,857** gross profit). That margin is healthy and almost identical in every channel, so the real question is not "what sells" but **"where does an hour of staff time earn the most?"**
 
-The answer is clear: **events and the night market earn 4-6x more gross profit per labor hour than the storefront.** The storefront produces 52% of revenue but, after a realistic labor cost, only about $24.6k of contribution. The biggest 2026 opportunities are therefore about *where you spend labor*, not about selling more chicken.
+The answer is clear: **events and the night market earn 4-6x more gross profit per labor hour than the storefront.** The storefront produces 52% of revenue but, after a realistic labor cost, only about $24.6k of contribution. The biggest 2026 opportunities are therefore about *where you spend labor*, not about selling more chicken. A stress test of every recommendation is in ["How confident are we?"](#how-confident-are-we) below, and one of my original findings did not survive it (see finding 2).
 
 | # | Finding | Annual value at stake |
 |---|---|---|
-| 1 | Keep 6 events, replace 2 weak ones | ~$15k-$32k *(opportunity, not a forecast)* |
-| 2 | Cut Tue-Thu storefront crew from 3 to 2 | ~$33.9k saved |
+| 1 | Keep 6 events, replace 2 weak ones | Typical ~$32k; range -$1.8k to ~$48k *(opportunity, not a forecast)* |
+| 2 | Cut Tue-Wed storefront crew from 3 to 2; pilot Thursday | ~$22.9k saved (+ up to $11k if the Thursday pilot works) |
 | 3 | Fix the event kitchen bottleneck | Protects the highest-margin channel |
-| 4 | +$1 on wings; add a drink attach program | ~$13.1k |
+| 4 | +$1 on wings; add a drink attach program | $0-$13k (typical ~$6.5k) |
 | 5 | Stock sauce by channel | Less waste, faster service |
 | 6 | Turn booth customers into loyalty members | Members are worth ~2x per customer |
 | 7 | Staff Friday 5-8pm to the limit; test a second weekly market | Largest upside per labor hour |
-| 8 | Trim the Fri/Sat late-night window | ~$5.7k saved |
+| 8 | Trim the Fri/Sat late-night window | ~$5.4k-$5.7k saved |
 
 > **Assumptions behind the dollar figures.** Labor is $22/hr loaded. The storefront runs 3 staff x 10 hrs (+2.5 hrs on Fri/Sat); the night market 3 staff x 6 hrs + $85 booth fee; events use their real booth fee and staff count x 10 hrs/day. Rent, utilities, travel and owner pay are **not** included. Change them in `sql/analysis.sql` (the `assumptions` CTEs) to test your own numbers.
 
@@ -38,13 +38,15 @@ The answer is clear: **events and the night market earn 4-6x more gross profit p
 - Do not renew Camarillo or Santa Clarita at current fees. Only accept them if the booth fee drops substantially or attendance data improves.
 - Use the two freed weekends to apply to *larger* regional festivals. If both replacements only matched the weakest of the strong six (Oxnard, $8.6k net) that adds about **$15k**; at the median of the six (about $17k net) it adds about **$32k**. Either is an opportunity, not a forecast.
 
-## 2. Storefront Tue-Thu: the crew costs more than the day earns
+## 2. Storefront Tue-Wed: the crew costs more than the day earns
 
-**The number.** Average storefront gross profit is **$568 on Tuesdays, $575 on Wednesdays and $653 on Thursdays**, versus **$660 of daily labor** for a 3-person, 10-hour crew. Friday and Saturday average **$1,004 and $1,118**. Tue/Wed run at only 72% of the storefront's average daily revenue.
+**The number.** Average storefront gross profit is **$568 on Tuesdays and $575 on Wednesdays**, versus **$660 of daily labor** for a 3-person, 10-hour crew. The 95% confidence intervals ($531-$607 and $541-$607) sit entirely below $660, and 69-77% of individual Tue/Wed days fell short of crew cost. **Thursday is different:** $653 (interval $620-$686) is break-even within the margin of error, so it is *not* proven to lose money. Friday and Saturday average $1,004 and $1,118.
 
-**Why it matters.** Mid-week days lose money on labor alone before rent. At 31-37 orders a day (about 3-4 an hour outside the lunch rush) a third person is mostly waiting.
+**Why it matters.** Tue/Wed lose money on labor alone before rent. At about 32 orders a day (3-4 an hour outside the lunch rush) a third person is mostly waiting. The finding does depend on the labor assumption: Tue/Wed are below cost only if loaded labor is above roughly **$19/hr** (break-even wages are $18.92 and $19.15). At $18/hr or less the problem disappears.
 
-**Recommendation.** Run **2 staff Tue-Thu** and keep 3-4 on Fri-Sun. That is one fewer person x 10 hrs x $22 x 154 days = **~$33,900 a year**. Keep the third person on call for lunch if a rush appears. Re-check after 8 weeks using the hourly heatmap in the dashboard.
+**Recommendation.** Run **2 staff on Tue-Wed**: one fewer person x 10 hrs x $22 x 104 days = **~$22,900 a year** if no sales are lost (about $21,100 if 3% of sales are lost, $16,900 if 10%). **Pilot 2 staff on Thursday for 6 weeks**; if sales hold, it adds up to $11,000. Re-check with the hourly heatmap in the dashboard.
+
+> *Correction note:* my first pass claimed Tue-Thu and about $33,900. The confidence-interval check showed Thursday cannot be called a loser, so the recommendation was narrowed. That is the point of stress-testing.
 
 ## 3. Event kitchens slow from 7.6 to 18.1 minutes once an hour passes 60 orders
 
@@ -64,8 +66,8 @@ The answer is clear: **events and the night market earn 4-6x more gross profit p
 **Why it matters.** A wing sale makes less profit per dollar than almost anything else on the menu. Drinks are nearly free profit that most guests are not buying.
 
 **Recommendation.**
-- **Raise wings and the Wing Combo by $1.** At flat volume that is about **$7,600** (7,576 units).
-- Add a **drink prompt** at the register or in the delivery app (combo upgrade, "add a lemonade for $3"). Lifting drink attach by just 7 points is worth about **$5,500**.
+- **Test a $1 increase on wings and the Wing Combo.** At flat volume that is about **$7,600** (7,576 units). If 5% of those buyers walk away the gain falls to about $3,300, and at 15% it turns into a loss of about $5,300, so test it on one item first.
+- Add a **drink prompt** at the register or in the delivery app (combo upgrade, "add a lemonade for $3"). Lifting drink attach by 7 points is worth about **$5,500** (4 points, about $3,200).
 - Lead promotions with the Tender Combo and Classic Sandwich, which together drive about 25% of total profit.
 
 ## 5. Medium and Hot are 57% of spiced orders, but events order hotter
@@ -106,6 +108,20 @@ The answer is clear: **events and the night market earn 4-6x more gross profit p
 **Recommendation.** Close at **10pm**, or run a **2-person skeleton crew** after 9pm. The window then roughly breaks even (2 staff x 2.5 hrs x $22 x 104 = $11,440 vs $11,496 gross profit), and you keep the audience for promotions.
 
 ---
+
+## How confident are we?
+
+Every recommendation above depends on assumptions or noisy daily sales, so I stress-tested them (`scripts/sensitivity_analysis.py`, results in `outputs/sensitivity/`; the live dashboard has sliders for labor rate and event attendance).
+
+| Question | Answer |
+|---|---|
+| Do the event recommendations survive lower attendance? | **Yes.** With attendance **down 30%**, all six strong events stay profitable (ROI 258%-311%). The two weak events sit between -22% and +9% ROI across every scenario from -30% to +20%. |
+| What if labor is $16 or $28 an hour? | The same two events are flagged at every wage from $16 to $28. The Tue/Wed staffing finding only holds above about **$19/hr**. |
+| Are the weekday results just noise? | Tue and Wed are below crew cost with **95% confidence** (bootstrap, 5,000 resamples). Thursday is not. |
+| Is the loyalty result real? | Members repeat **19.7 percentage points** more often (95% CI 15.9 to 23.6, p < 0.001). |
+| Is the kitchen slowdown real? | Prep time in 61+ order hours is **10.6 minutes longer** at events (95% CI 10.3 to 10.8). |
+
+**The 2026 plan, all five changes combined** (worst / typical / best case): **$14.4k / $65.2k / $89.6k** a year, or 7% / 33% / 45% of 2025 contribution ($197k). The worst case assumes some sales are lost when staffing is cut, replacement events earn nothing, and 15% of buyers leave after the wings price increase. These are illustrative scenarios from one year of synthetic data, not a forecast; the event replacement lever is the largest and least certain.
 
 ## Limits of this analysis
 

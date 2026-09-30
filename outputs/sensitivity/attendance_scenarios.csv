@@ -1,0 +1,49 @@
+attendance_change_pct,event_name,net_profit,roi_pct,verdict
+-30,Ventura Winter Food Fest,8780,271,KEEP
+-30,Oxnard Spring Street Eats,5508,311,KEEP - priority
+-30,Santa Paula Chili Cookoff,12665,302,KEEP - priority
+-30,Camarillo Craft & Bites,-637,-22,REVIEW / DROP
+-30,Long Beach Street Food Fest,18319,269,KEEP
+-30,Ventura Summer Heat Fest,15764,289,KEEP
+-30,Thousand Oaks Fall Food Truck Fest,8892,258,KEEP
+-30,Santa Clarita Holiday Market,242,9,REVIEW / DROP
+-20,Ventura Winter Food Fest,10497,324,KEEP - priority
+-20,Oxnard Spring Street Eats,6547,370,KEEP - priority
+-20,Santa Paula Chili Cookoff,15074,359,KEEP - priority
+-20,Camarillo Craft & Bites,-305,-10,REVIEW / DROP
+-20,Long Beach Street Food Fest,21910,321,KEEP - priority
+-20,Ventura Summer Heat Fest,18796,344,KEEP - priority
+-20,Thousand Oaks Fall Food Truck Fest,10654,310,KEEP - priority
+-20,Santa Clarita Holiday Market,656,25,REVIEW / DROP
+-10,Ventura Winter Food Fest,12214,377,KEEP - priority
+-10,Oxnard Spring Street Eats,7587,429,KEEP - priority
+-10,Santa Paula Chili Cookoff,17483,416,KEEP - priority
+-10,Camarillo Craft & Bites,26,1,REVIEW / DROP
+-10,Long Beach Street Food Fest,25502,374,KEEP - priority
+-10,Ventura Summer Heat Fest,21828,400,KEEP - priority
+-10,Thousand Oaks Fall Food Truck Fest,12416,361,KEEP - priority
+-10,Santa Clarita Holiday Market,1071,40,REVIEW / DROP
+0,Ventura Winter Food Fest,13931,430,KEEP - priority
+0,Oxnard Spring Street Eats,8627,487,KEEP - priority
+0,Santa Paula Chili Cookoff,19893,474,KEEP - priority
+0,Camarillo Craft & Bites,358,12,REVIEW / DROP
+0,Long Beach Street Food Fest,29093,427,KEEP - priority
+0,Ventura Summer Heat Fest,24860,455,KEEP - priority
+0,Thousand Oaks Fall Food Truck Fest,14178,412,KEEP - priority
+0,Santa Clarita Holiday Market,1485,56,REVIEW / DROP
+10,Ventura Winter Food Fest,15648,483,KEEP - priority
+10,Oxnard Spring Street Eats,9666,546,KEEP - priority
+10,Santa Paula Chili Cookoff,22302,531,KEEP - priority
+10,Camarillo Craft & Bites,690,23,REVIEW / DROP
+10,Long Beach Street Food Fest,32684,479,KEEP - priority
+10,Ventura Summer Heat Fest,27892,511,KEEP - priority
+10,Thousand Oaks Fall Food Truck Fest,15939,463,KEEP - priority
+10,Santa Clarita Holiday Market,1900,71,REVIEW / DROP
+20,Ventura Winter Food Fest,17365,536,KEEP - priority
+20,Oxnard Spring Street Eats,10706,605,KEEP - priority
+20,Santa Paula Chili Cookoff,24711,588,KEEP - priority
+20,Camarillo Craft & Bites,1022,35,REVIEW / DROP
+20,Long Beach Street Food Fest,36275,532,KEEP - priority
+20,Ventura Summer Heat Fest,30924,566,KEEP - priority
+20,Thousand Oaks Fall Food Truck Fest,17701,515,KEEP - priority
+20,Santa Clarita Holiday Market,2314,87,REVIEW / DROP
