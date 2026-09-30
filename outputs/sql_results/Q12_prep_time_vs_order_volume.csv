@@ -1,0 +1,13 @@
+channel,volume_bucket,bucket_order,orders,avg_prep_min,pct_orders_over_15min
+Night Market,1-10 orders/hr,1,407,8.0,0.0
+Night Market,11-20,2,1114,9.9,1.8
+Night Market,21-40,3,2346,12.9,20.3
+Night Market,41-60,4,384,15.6,57.0
+Storefront,1-10 orders/hr,1,11921,9.1,1.7
+Storefront,11-20,2,2027,12.4,15.4
+Storefront,21-40,3,21,15.9,66.7
+Vendor Event,1-10 orders/hr,1,322,7.6,0.0
+Vendor Event,11-20,2,601,8.9,0.7
+Vendor Event,21-40,3,2146,11.0,5.2
+Vendor Event,41-60,4,1897,13.9,30.9
+Vendor Event,61+,5,1057,18.1,83.2

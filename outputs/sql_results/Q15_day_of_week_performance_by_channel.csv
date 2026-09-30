@@ -1,0 +1,11 @@
+channel,day_of_week_num,day_of_week,days_operated,avg_orders_per_day,avg_revenue_per_day,avg_gross_profit_per_day,rank_within_channel,index_vs_channel_avg
+Night Market,4,Friday,44,96.6,2749.03,1853.61,1,1.0
+Storefront,1,Tuesday,52,31.5,853.77,567.59,6,0.72
+Storefront,2,Wednesday,52,32.2,862.09,574.61,5,0.72
+Storefront,3,Thursday,50,37.3,983.19,653.21,4,0.82
+Storefront,4,Friday,52,57.3,1510.58,1004.43,2,1.27
+Storefront,5,Saturday,52,63.9,1680.42,1118.37,1,1.41
+Storefront,6,Sunday,52,48.0,1268.01,843.92,3,1.06
+Vendor Event,4,Friday,8,242.9,8705.31,5770.6,3,0.83
+Vendor Event,5,Saturday,8,300.8,10844.98,7189.81,2,1.04
+Vendor Event,6,Sunday,5,335.0,11851.39,7858.18,1,1.13

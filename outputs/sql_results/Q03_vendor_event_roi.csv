@@ -1,0 +1,9 @@
+event_name,city,start_date,event_days,staff_count,orders,revenue,gross_profit,booth_fee,staff_cost,net_profit,roi_pct,net_profit_per_day,orders_per_staff_day,roi_rank,verdict
+Oxnard Spring Street Eats,Oxnard,2025-03-28,2,3,445,15732.88,10396.68,450,1320.0,8626.68,487.4,4313.34,74.2,1,KEEP - priority
+Santa Paula Chili Cookoff,Santa Paula,2025-05-09,3,5,1001,36284.53,24092.53,900,3300.0,19892.53,473.6,6630.84,66.7,2,KEEP - priority
+Ventura Summer Heat Fest,Ventura,2025-08-01,3,6,1280,45653.02,30320.17,1500,3960.0,24860.17,455.3,8286.72,71.1,3,KEEP - priority
+Ventura Winter Food Fest,Ventura,2025-02-14,3,4,728,25905.73,17170.73,600,2640.0,13930.73,430.0,4643.58,60.7,4,KEEP - priority
+Long Beach Street Food Fest,Long Beach,2025-07-18,3,7,1504,54210.72,35912.87,2200,4620.0,29092.87,426.6,9697.62,71.6,5,KEEP - priority
+Thousand Oaks Fall Food Truck Fest,Thousand Oaks,2025-09-26,3,4,751,26607.35,17617.7,800,2640.0,14177.7,412.1,4725.9,62.6,6,KEEP - priority
+Santa Clarita Holiday Market,Santa Clarita,2025-12-05,2,4,174,6258.6,4145.35,900,1760.0,1485.35,55.8,742.68,21.8,7,REVIEW / DROP
+Camarillo Craft & Bites,Camarillo,2025-06-06,2,4,141,5006.45,3318.15,1200,1760.0,358.15,12.1,179.08,17.6,8,REVIEW / DROP

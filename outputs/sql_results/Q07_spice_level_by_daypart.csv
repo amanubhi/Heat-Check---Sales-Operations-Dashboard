@@ -1,0 +1,25 @@
+daypart,daypart_order,spice_level,heat_rank,units,pct_of_daypart_units,extra_hot_plus_share_pct
+Lunch,1,No Heat,0,648,6.1,21.3
+Lunch,1,Mild,1,1746,16.3,21.3
+Lunch,1,Medium,2,3144,29.4,21.3
+Lunch,1,Hot,3,2875,26.9,21.3
+Lunch,1,Extra Hot,4,1666,15.6,21.3
+Lunch,1,Reaper,5,611,5.7,21.3
+Afternoon,2,No Heat,0,276,5.3,23.6
+Afternoon,2,Mild,1,798,15.2,23.6
+Afternoon,2,Medium,2,1453,27.7,23.6
+Afternoon,2,Hot,3,1481,28.2,23.6
+Afternoon,2,Extra Hot,4,898,17.1,23.6
+Afternoon,2,Reaper,5,337,6.4,23.6
+Dinner,3,No Heat,0,1208,6.1,21.3
+Dinner,3,Mild,1,3120,15.8,21.3
+Dinner,3,Medium,2,5765,29.2,21.3
+Dinner,3,Hot,3,5463,27.7,21.3
+Dinner,3,Extra Hot,4,3021,15.3,21.3
+Dinner,3,Reaper,5,1180,6.0,21.3
+Late Night,4,No Heat,0,67,4.6,26.0
+Late Night,4,Mild,1,164,11.2,26.0
+Late Night,4,Medium,2,415,28.3,26.0
+Late Night,4,Hot,3,438,29.9,26.0
+Late Night,4,Extra Hot,4,262,17.9,26.0
+Late Night,4,Reaper,5,118,8.1,26.0

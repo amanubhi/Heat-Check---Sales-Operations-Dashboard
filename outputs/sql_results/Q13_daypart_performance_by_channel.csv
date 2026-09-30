@@ -1,0 +1,10 @@
+channel,daypart,orders,revenue,gross_profit,margin_pct,avg_prep_min,pct_of_channel_revenue,revenue_rank_in_channel
+Night Market,Dinner,3928,111443.37,75177.02,67.5,12.2,92.1,1
+Night Market,Late Night,324,9513.77,6381.77,67.1,8.1,7.9,2
+Storefront,Dinner,6770,179505.66,119334.56,66.5,10.1,48.5,1
+Storefront,Lunch,4778,127591.16,84955.31,66.6,9.7,34.5,2
+Storefront,Afternoon,1754,45886.37,30538.62,66.6,7.9,12.4,3
+Storefront,Late Night,673,17270.17,11495.77,66.6,8.1,4.7,4
+Vendor Event,Dinner,2307,81558.9,54115.4,66.4,13.1,37.8,1
+Vendor Event,Lunch,2168,78825.71,52178.31,66.2,13.6,36.6,2
+Vendor Event,Afternoon,1549,55274.67,36680.47,66.4,11.2,25.6,3

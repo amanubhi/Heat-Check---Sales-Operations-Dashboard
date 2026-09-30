@@ -1,0 +1,4 @@
+channel,orders,operating_days,revenue,gross_profit,margin_pct,avg_order_value,avg_prep_min,labor_cost,booth_fees,contribution_after_direct_costs,gross_profit_per_labor_hour,contribution_per_operating_day,rank_by_contribution_per_labor_hour
+Vendor Event,6024,21,215659.28,142974.18,66.3,35.8,12.8,22000.0,8550.0,112424.18,142.97,5353.53,1
+Night Market,4252,44,120957.14,81558.79,67.43,28.45,11.9,17424.0,3740.0,60394.79,102.98,1372.61,2
+Storefront,13975,310,370253.36,246324.26,66.53,26.49,9.6,221760.0,0.0,24564.26,24.44,79.24,3

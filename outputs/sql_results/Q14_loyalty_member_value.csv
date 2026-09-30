@@ -1,0 +1,4 @@
+segment,customers,orders,orders_per_customer,avg_order_value,pct_orders_discounted,revenue_per_customer,gross_profit_per_customer
+Known non-member,1427.0,3511,2.46,28.27,3.4,69.55,46.32
+Loyalty member,1046.0,5092,4.87,28.1,9.1,136.8,90.83
+Walk-up (no customer id),,15648,,29.69,4.1,,

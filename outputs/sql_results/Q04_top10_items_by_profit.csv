@@ -1,0 +1,11 @@
+profit_rank,item_name,category,units_sold,revenue,gross_profit,margin_pct,revenue_rank,rank_gain_vs_revenue,pct_of_total_profit
+1,Tender Combo,Combos,5581,99869.4,65825.29,65.9,1,0,14.0
+2,Sandwich Combo,Combos,5166,89888.54,59925.74,66.7,2,0,12.7
+3,Classic Hot Chicken Sandwich,Sandwich,6189,76845.92,53018.27,69.0,3,0,11.3
+4,Tenders 5pc,Tenders,4172,58063.7,40124.1,69.1,4,0,8.5
+5,Wing Combo,Combos,2463,50232.37,29789.47,59.3,5,0,6.3
+6,Wings 10pc,Wings,2669,45107.46,25890.66,57.4,6,0,5.5
+7,Double Stack Sandwich,Sandwich,2575,39761.87,24569.37,61.8,7,0,5.2
+8,Family Pack,Combos,570,32879.68,20624.68,62.7,8,0,4.4
+9,Chicken & Waffle Sandwich,Sandwich,2140,28741.39,19539.39,68.0,9,0,4.1
+10,Seasoned Fries,Sides,5562,24894.17,18775.97,75.4,10,0,4.0
