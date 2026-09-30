@@ -1,0 +1,16 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Excel temp/lock files
+~$*.xlsx
+
+# Claude Code local settings
+.claude/
