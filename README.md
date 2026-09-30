@@ -9,9 +9,7 @@
 ![pandas](https://img.shields.io/badge/pandas-Data%20Cleaning-150458?logo=pandas&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-### 👉 [Live Dashboard](https://YOUR-USERNAME.github.io/YOUR-REPO/) &nbsp;|&nbsp; [Insights report](reports/insights.md) &nbsp;|&nbsp; [SQL analysis](sql/analysis.sql) &nbsp;|&nbsp; [Excel guide](excel/README_excel.md)
-
-> Replace `YOUR-USERNAME/YOUR-REPO` above once GitHub Pages is enabled (steps at the end of this file).
+### 👉 [Live Dashboard](https://amanubhi.github.io/Heat-Check---Sales-Operations-Dashboard/) &nbsp;|&nbsp; [Insights report](reports/insights.md) &nbsp;|&nbsp; [SQL analysis](sql/analysis.sql) &nbsp;|&nbsp; [Excel guide](excel/README_excel.md)
 
 ![Web dashboard](assets/web_dashboard.png)
 
@@ -175,8 +173,8 @@ Requires Python 3.10+ (tested on 3.13).
 
 ```bash
 # 1. Get the code
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-cd YOUR-REPO
+git clone https://github.com/amanubhi/Heat-Check---Sales-Operations-Dashboard.git
+cd Heat-Check---Sales-Operations-Dashboard
 
 # 2. Create an environment and install dependencies
 python3 -m venv .venv
@@ -210,7 +208,7 @@ Open `docs/index.html` in any browser to view the dashboard locally. Requirement
 ## 👤 About me
 
 **YOUR NAME** | Aspiring Data Analyst
-📍 YOUR CITY, CA &nbsp;|&nbsp; ✉️ your.email@example.com &nbsp;|&nbsp; 💼 [LinkedIn](https://linkedin.com/in/YOUR-PROFILE) &nbsp;|&nbsp; 🐙 [GitHub](https://github.com/YOUR-USERNAME)
+📍 YOUR CITY, CA &nbsp;|&nbsp; ✉️ your.email@example.com &nbsp;|&nbsp; 💼 [LinkedIn](https://linkedin.com/in/YOUR-PROFILE) &nbsp;|&nbsp; 🐙 [GitHub](https://github.com/amanubhi)
 
 *Write 2-3 sentences here about your background, what you are looking for, and why you built this project.*
 
@@ -220,7 +218,7 @@ Open `docs/index.html` in any browser to view the dashboard locally. Requirement
 2. Go to **Settings -> Pages**.
 3. Under **Build and deployment -> Source**, choose **Deploy from a branch**.
 4. Set **Branch** to `main` and the folder to **`/docs`**, then click **Save**.
-5. Wait 1-2 minutes. Your site is at `https://YOUR-USERNAME.github.io/YOUR-REPO/`. Paste that link at the top of this README.
+5. Wait 1-2 minutes. Your site is at `https://amanubhi.github.io/Heat-Check---Sales-Operations-Dashboard/`. 
 
 ## 📄 License
 
