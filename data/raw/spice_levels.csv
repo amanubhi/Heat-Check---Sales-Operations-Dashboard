@@ -1,0 +1,7 @@
+level_id,level_name,heat_rank
+1,No Heat,0
+2,Mild,1
+3,Medium,2
+4,Hot,3
+5,Extra Hot,4
+6,Reaper,5
