@@ -207,7 +207,7 @@ Open `docs/index.html` in any browser to view the dashboard locally. Requirement
 
 ## 👤 About me
 
-**Amanjot Ubhi** | Aspiring Data Analyst & Project Coordinator  
+**Aman Ubhi** | Aspiring Data Analyst & Project Coordinator  
 📍 Los Angeles, CA &nbsp;|&nbsp; ✉️ [amanubhi555@gmail.com](mailto:amanubhi555@gmail.com) &nbsp;|&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/amanubhi1) &nbsp;|&nbsp; 🐙 [GitHub](https://github.com/amanubhi)
 
 I'm looking for Project Coordinator and Data Analyst roles where I can turn messy data into clear decisions. I built Heat Check to practice the full analyst workflow: cleaning data, answering business questions with SQL, building dashboards in Excel and on the web, and presenting recommendations a business owner can act on.
